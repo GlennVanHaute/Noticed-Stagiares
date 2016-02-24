@@ -12,6 +12,7 @@ var gulp = require('gulp');
 	cssnano = require('gulp-cssnano'),
 	pngquant = require('imagemin-pngquant');
 	rename = require('gulp-rename');
+	uglify = require('gulp-uglify');
 
 
 function errorAlertSass(error){
