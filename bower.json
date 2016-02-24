@@ -1,0 +1,20 @@
+{
+  "name": "gulp-noticed",
+  "version": "0.0.0",
+  "authors": [
+    "filip@noticed.be"
+  ],
+  "description": "Susy, Breakpoint-Sass includes",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "susy": "~2.2.7",
+    "breakpoint-sass": "~2.6.1"
+  }
+}
