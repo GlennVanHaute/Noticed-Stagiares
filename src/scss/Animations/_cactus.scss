@@ -1,0 +1,77 @@
+          
+.cactusomleiding {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: cactus 4s linear forwards;
+  
+}         
+
+.opacitymaster {
+  animation: cactus2 4s linear forwards;
+  
+}
+
+.opacitymaster1 {
+  animation: cactus3 4s linear forwards;
+  
+}
+
+.opacitymaster2 {
+  animation: cactus4 4s linear forwards;
+  
+}
+
+.opacitymaster3 {
+  animation: cactus5 4s linear forwards;
+  
+}
+
+.opacitymaster4 {
+  animation: cactus6 4s linear forwards;
+  
+}
+
+@keyframes cactus {
+
+     0%   {stroke-dashoffset: 1000;}
+    25%  {stroke-dashoffset: 0;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
+@keyframes cactus2 {
+
+     0%   {opacity: 0;}
+    25%  {opacity: 0;}
+    70%  {opacity: 0;}
+    75%  {opacity: 1;}
+
+}
+
+@keyframes cactus3 {
+
+     0%   {opacity: 0;}
+    22%  {opacity: 0;}
+    24%  {opacity: 1;}
+}
+
+@keyframes cactus4 {
+
+     0%   {opacity: 0;}
+    42%  {opacity: 0;}
+    44%  {opacity: 1;}
+}
+
+@keyframes cactus5 {
+
+     0%   {opacity: 0;}
+    55%  {opacity: 0;}
+    56%  {opacity: 1;}
+}
+
+@keyframes cactus6 {
+
+     0%   {opacity: 0;}
+    62%  {opacity: 0;}
+    64%  {opacity: 1;}
+}

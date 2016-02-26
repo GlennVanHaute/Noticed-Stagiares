@@ -665,6 +665,140 @@ body {
   .secondcollum {
     float: left; } }
 
+.cactusomleiding {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: cactus 4s linear forwards;
+          animation: cactus 4s linear forwards; }
+
+.opacitymaster {
+  -webkit-animation: cactus2 4s linear forwards;
+          animation: cactus2 4s linear forwards; }
+
+.opacitymaster1 {
+  -webkit-animation: cactus3 4s linear forwards;
+          animation: cactus3 4s linear forwards; }
+
+.opacitymaster2 {
+  -webkit-animation: cactus4 4s linear forwards;
+          animation: cactus4 4s linear forwards; }
+
+.opacitymaster3 {
+  -webkit-animation: cactus5 4s linear forwards;
+          animation: cactus5 4s linear forwards; }
+
+.opacitymaster4 {
+  -webkit-animation: cactus6 4s linear forwards;
+          animation: cactus6 4s linear forwards; }
+
+@-webkit-keyframes cactus {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 0; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes cactus {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 0; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes cactus2 {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  75% {
+    opacity: 1; } }
+
+@keyframes cactus2 {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  75% {
+    opacity: 1; } }
+
+@-webkit-keyframes cactus3 {
+  0% {
+    opacity: 0; }
+  22% {
+    opacity: 0; }
+  24% {
+    opacity: 1; } }
+
+@keyframes cactus3 {
+  0% {
+    opacity: 0; }
+  22% {
+    opacity: 0; }
+  24% {
+    opacity: 1; } }
+
+@-webkit-keyframes cactus4 {
+  0% {
+    opacity: 0; }
+  42% {
+    opacity: 0; }
+  44% {
+    opacity: 1; } }
+
+@keyframes cactus4 {
+  0% {
+    opacity: 0; }
+  42% {
+    opacity: 0; }
+  44% {
+    opacity: 1; } }
+
+@-webkit-keyframes cactus5 {
+  0% {
+    opacity: 0; }
+  55% {
+    opacity: 0; }
+  56% {
+    opacity: 1; } }
+
+@keyframes cactus5 {
+  0% {
+    opacity: 0; }
+  55% {
+    opacity: 0; }
+  56% {
+    opacity: 1; } }
+
+@-webkit-keyframes cactus6 {
+  0% {
+    opacity: 0; }
+  62% {
+    opacity: 0; }
+  64% {
+    opacity: 1; } }
+
+@keyframes cactus6 {
+  0% {
+    opacity: 0; }
+  62% {
+    opacity: 0; }
+  64% {
+    opacity: 1; } }
+
 .pizzaomleining {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
