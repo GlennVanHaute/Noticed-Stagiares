@@ -48,3 +48,24 @@
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+@media (max-width: 960px) {
+	.header {
+		width: 100%;
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+.subtext{
+	position: absolute;
+	color: $secondary-color;
+	text-transform: uppercase;
+	font-family: "Black", sans-serif;
+	bottom: 5%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+	}
+}
