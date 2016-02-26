@@ -1,0 +1,33 @@
+          
+.chefomleiding {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: chef 4s linear forwards;
+  
+}         
+
+.chefomleiding1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: chef1 4s linear forwards;
+  
+}
+
+
+@keyframes chef {
+ 
+     0%   {stroke-dashoffset: 1000;}
+    25%  {stroke-dashoffset: 0;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
+@keyframes chef1 {
+
+     0%   {stroke-dashoffset: 1000;}
+    25%  {stroke-dashoffset: 1000;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+
+}

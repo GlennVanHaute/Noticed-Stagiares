@@ -1,0 +1,46 @@
+.gamingomlijning {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: gamingstroke 10s linear forwards;
+  
+}  
+
+.gamingomlijning2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: gamingstroke2 10s linear forwards;
+  
+}         
+
+
+.gamingbollen {
+
+  animation: gamingalpha 10s linear forwards;
+  
+}
+
+@keyframes gamingstroke {
+
+     0%   {stroke-dashoffset: 1000;}
+    20%  {stroke-dashoffset: 0;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
+
+@keyframes gamingstroke2 {
+
+     2%   {stroke-dashoffset: 1000;}
+    72%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+    
+}
+
+@keyframes gamingalpha {
+
+     0%   {opacity: 0;}
+    12%  {opacity: 0;}
+    15%  {opacity: 1;}
+
+}
+

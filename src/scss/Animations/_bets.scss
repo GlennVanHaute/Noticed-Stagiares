@@ -1,0 +1,46 @@
+         
+.handomlijning {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: handstroke 10s linear forwards;
+  
+}  
+
+.handomlijning2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: handstroke2 10s linear forwards;
+  
+}         
+
+
+.beanBollen {
+
+  animation: beanalpha 10s linear forwards;
+  
+}
+
+@keyframes handstroke {
+
+     0%   {stroke-dashoffset: 1000;}
+    20%  {stroke-dashoffset: 0;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
+
+@keyframes handstroke2 {
+
+     2%   {stroke-dashoffset: 1000;}
+    22%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+    
+}
+
+@keyframes handalpha {
+
+     0%   {opacity: 0;}
+    12%  {opacity: 0;}
+    15%  {opacity: 1;}
+
+}

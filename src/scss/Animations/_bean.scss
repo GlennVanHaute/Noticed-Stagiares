@@ -1,0 +1,46 @@
+
+.beanomlijning {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: beanstroke 10s linear forwards;
+  
+}  
+
+.beanomlijning2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: beanstroke2 10s linear forwards;
+  
+}         
+
+
+.beanBollen {
+
+  animation: beanalpha 10s linear forwards;
+  
+}
+
+@keyframes beanstroke {
+
+     0%   {stroke-dashoffset: 1000;}
+    20%  {stroke-dashoffset: 0;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
+
+@keyframes beanstroke2 {
+
+     2%   {stroke-dashoffset: 1000;}
+    22%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+    
+}
+
+@keyframes beanalpha {
+
+     0%   {opacity: 0;}
+    12%  {opacity: 0;}
+    15%  {opacity: 1;}
+
+}

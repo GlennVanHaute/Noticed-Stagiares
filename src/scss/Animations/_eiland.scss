@@ -1,0 +1,51 @@
+
+          
+.eilandomlijning {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: einlandstroke 10s linear forwards;
+  
+}         
+
+
+.eilandbollen {
+
+  animation: eilandalpha 10s linear forwards;
+  
+}
+
+@keyframes einlandstroke {
+
+     0%   {stroke-dashoffset: 1000;}
+    20%  {stroke-dashoffset: 0;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
+ 
+@keyframes einlandstroke1 {
+
+     0%   {stroke-dashoffset: 1000;}
+    2%  {stroke-dashoffset: 1000;}
+    22%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+
+}
+
+@keyframes einlandstroke2 {
+
+     0%   {stroke-dashoffset: 1000;}
+    3%  {stroke-dashoffset: 1000;}
+    70%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+
+}
+@keyframes eilandalpha {
+
+     0%   {opacity: 0;}
+    22%  {opacity: 0;}
+    23%  {opacity: 1;}
+
+}
