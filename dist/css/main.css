@@ -432,6 +432,9 @@ footer {
 body {
   background-color: #fff; }
 
+.left p {
+  color: #1AB1A1; }
+
 .middle-section {
   width: 960px;
   min-height: 300px;
@@ -457,7 +460,7 @@ body {
   color: #1AB1A1;
   font-size: 4em;
   font-weight: bolder;
-  margin-bottom: 45px;
+  margin-bottom: 15px;
   margin-top: 15px;
   width: 150px;
   margin-left: auto;
@@ -473,7 +476,8 @@ body {
   text-align: left; }
   .left p {
     padding-left: 35px;
-    font-family: "Light", sans-serif; }
+    font-family: "Light", sans-serif;
+    color: #1AB1A1; }
   .left .title {
     font-weight: bold;
     font-size: 1.7em;
@@ -504,7 +508,8 @@ body {
   text-align: right; }
   .right p {
     padding-right: 35px;
-    font-family: "Light", sans-serif; }
+    font-family: "Light", sans-serif;
+    color: #1AB1A1; }
   .right .title {
     z-index: 3;
     font-weight: bold;
@@ -561,7 +566,7 @@ body {
     color: #1AB1A1;
     font-size: 4em;
     font-weight: bolder;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     margin-top: 15px;
     width: 150px;
     margin-left: auto;
