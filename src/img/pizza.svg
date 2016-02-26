@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 185.3 264.6" style="enable-background:new 0 0 185.3 264.6;" xml:space="preserve">
+	 viewBox="0 0 215.9 259.3" style="enable-background:new 0 0 215.9 259.3;" xml:space="preserve">
 <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c111 79.158366, 2015/09/25-01:12:00        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -36,27 +36,29 @@
 </style>
 <g>
 	<g>
-		<path class="st0" d="M179.7,4.4c0,0-92.2-10.7-175.7,75.7L179.7,255V4.4z"/>
-		<path class="st0" d="M179.7,47.9c0,0-78.1-6-146.1,61.6"/>
-		<line class="st0" x1="99.1" y1="111.8" x2="74.7" y2="102.1"/>
-		<circle class="st0" cx="144.9" cy="99.1" r="16.8"/>
-		<circle class="st0" cx="118.6" cy="146.5" r="16.8"/>
-		<line class="st0" x1="162" y1="138.2" x2="152.4" y2="162.7"/>
+		<path class="st0" d="M164.4,4.2c0,0-92.6,6.4-158.9,106.6l204.7,139.8L164.4,4.2z"/>
+		<path class="st0" d="M172.3,47c0,0-77.9,8.3-132.4,87.3"/>
+		<line class="st0" x1="104.8" y1="124.6" x2="79" y2="119.4"/>
+		
+			<ellipse transform="matrix(0.9832 -0.1827 0.1827 0.9832 -16.4597 28.6956)" class="st0" cx="147.5" cy="103.7" rx="16.8" ry="16.8"/>
+		
+			<ellipse transform="matrix(0.9832 -0.1827 0.1827 0.9832 -26.1492 26.4119)" class="st0" cx="130.3" cy="155.1" rx="16.8" ry="16.8"/>
+		<line class="st0" x1="171.4" y1="139" x2="166.5" y2="164.8"/>
 	</g>
-	<path class="st0" d="M104.9,82.3"/>
+	<path class="st0" d="M105.1,94.4"/>
 	<g>
 		<g>
-			<path class="st1" d="M107.4,87.8c7.7,0,7.7-11.9,0-11.9C99.7,75.9,99.7,87.8,107.4,87.8L107.4,87.8z"/>
+			<path class="st1" d="M107.4,99.5c7.7,0,7.7-11.9,0-11.9C99.8,87.6,99.8,99.5,107.4,99.5L107.4,99.5z"/>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path class="st1" d="M84.6,137.8c7.7,0,7.7-11.9,0-11.9C76.9,125.9,76.9,137.8,84.6,137.8L84.6,137.8z"/>
+			<path class="st1" d="M94.2,152.8c7.7,0,7.7-11.9,0-11.9C86.5,140.9,86.5,152.8,94.2,152.8L94.2,152.8z"/>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path class="st1" d="M151.4,196.3c7.7,0,7.7-11.9,0-11.9C143.7,184.4,143.7,196.3,151.4,196.3L151.4,196.3z"/>
+			<path class="st1" d="M170.5,198.1c7.7,0,7.7-11.9,0-11.9C162.9,186.2,162.8,198.1,170.5,198.1L170.5,198.1z"/>
 		</g>
 	</g>
 </g>
