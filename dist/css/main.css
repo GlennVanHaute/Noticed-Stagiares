@@ -664,3 +664,155 @@ body {
     padding-right: 15px; }
   .secondcollum {
     float: left; } }
+
+.pizzaomleining {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: pizza 2.5s linear forwards;
+          animation: pizza 2.5s linear forwards; }
+
+.pizzaverdeling {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: pizza2 2.5s linear forwards;
+          animation: pizza2 2.5s linear forwards; }
+
+.pizzastrepen {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: pizza3 2.5s linear forwards;
+          animation: pizza3 2.5s linear forwards; }
+
+.pizzacirkel {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: pizza4 2.5s linear forwards;
+          animation: pizza4 2.5s linear forwards; }
+
+.pizzabollen {
+  -webkit-animation: pizza5 2.5s linear forwards;
+          animation: pizza5 2.5s linear forwards; }
+
+@-webkit-keyframes pizza {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 0; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes pizza {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 0; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes pizza2 {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 1000; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes pizza2 {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 1000; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes pizza3 {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 1000; }
+  50% {
+    stroke-dashoffset: 1000; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes pizza3 {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 1000; }
+  50% {
+    stroke-dashoffset: 1000; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes pizza4 {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 1000; }
+  50% {
+    stroke-dashoffset: 1000; }
+  65% {
+    stroke-dashoffset: 1000; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes pizza4 {
+  0% {
+    stroke-dashoffset: 1000; }
+  25% {
+    stroke-dashoffset: 1000; }
+  50% {
+    stroke-dashoffset: 1000; }
+  65% {
+    stroke-dashoffset: 1000; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes pizza5 {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  75% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes pizza5 {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  75% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
