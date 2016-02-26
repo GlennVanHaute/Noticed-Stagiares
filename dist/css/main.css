@@ -583,13 +583,16 @@ body {
       padding: 15px;
       font-family: "Light", sans-serif; }
     .left .title {
+      width: 85%;
       font-weight: bold;
       font-size: 1.7em;
       margin-bottom: 15px;
       font-family: "Black", sans-serif;
       position: absolute;
-      left: 5%;
-      top: 15%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      top: 25%;
       text-align: center; }
       .left .title span {
         padding-left: 0px; }
@@ -620,14 +623,18 @@ body {
       padding: 15px;
       font-family: "Light", sans-serif; }
     .right .title {
+      width: 85%;
       z-index: initial;
       font-weight: bold;
       font-size: 1.7em;
       margin-bottom: 15px;
       font-family: "Black", sans-serif;
       position: absolute;
-      right: 11%;
-      top: 15%;
+      top: 25%;
+      right: 0%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
       text-align: center; }
       .right .title span {
         padding-right: 0px; }
