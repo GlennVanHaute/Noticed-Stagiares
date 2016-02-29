@@ -1,33 +1,67 @@
-          
 .cactusomleiding {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: cactus 4s linear forwards;
+  animation: cactus 10s linear forwards;
   
 }         
 
 .opacitymaster {
-  animation: cactus2 4s linear forwards;
+  animation: cactus2 10s linear forwards;
   
 }
 
 .opacitymaster1 {
-  animation: cactus3 4s linear forwards;
+  animation: cactus3 6s linear forwards;
   
 }
 
 .opacitymaster2 {
-  animation: cactus4 4s linear forwards;
+  animation: cactus4 6s linear forwards;
   
 }
 
 .opacitymaster3 {
-  animation: cactus5 4s linear forwards;
+  animation: cactus5 6s linear forwards;
   
 }
 
 .opacitymaster4 {
-  animation: cactus6 4s linear forwards;
+  animation: cactus6 6s linear forwards;
+  
+}
+
+.opacitymaster5 {
+  animation: cactus7 6s linear forwards;
+  
+}
+
+.opacitymaster6 {
+  animation: cactus8 6s linear forwards;
+  
+}
+
+.opacitymaster7 {
+  animation: cactus9 6s linear forwards;
+  
+}
+
+.opacitymaster8 {
+  animation: cactus10 6s linear forwards;
+  
+}
+
+.opacitymaster9 {
+  animation: cactus11 6s linear forwards;
+  
+}
+
+.opacitymaster10 {
+  animation: cactus12 6s linear forwards;
+  
+}
+
+.opacitymaster11 {
+  animation: cactus13 6s linear forwards;
   
 }
 
@@ -42,36 +76,70 @@
 @keyframes cactus2 {
 
      0%   {opacity: 0;}
-    25%  {opacity: 0;}
-    70%  {opacity: 0;}
-    75%  {opacity: 1;}
+    7%  {opacity: 0;}
+    10%  {opacity: 1;}
 
 }
 
 @keyframes cactus3 {
 
      0%   {opacity: 0;}
-    22%  {opacity: 0;}
-    24%  {opacity: 1;}
+    10%  {opacity: 0;}
+    13%  {opacity: 1;}
 }
 
 @keyframes cactus4 {
 
      0%   {opacity: 0;}
-    42%  {opacity: 0;}
-    44%  {opacity: 1;}
+    13%  {opacity: 0;}
+    16%  {opacity: 1;}
 }
 
 @keyframes cactus5 {
 
      0%   {opacity: 0;}
-    55%  {opacity: 0;}
-    56%  {opacity: 1;}
+    16%  {opacity: 0;}
+    19%  {opacity: 1;}
 }
 
 @keyframes cactus6 {
 
      0%   {opacity: 0;}
-    62%  {opacity: 0;}
-    64%  {opacity: 1;}
+    19%  {opacity: 0;}
+    22%  {opacity: 1;}
+}@keyframes cactus7 {
+
+     0%   {opacity: 0;}
+    25%  {opacity: 0;}
+    28%  {opacity: 1;}
+}@keyframes cactus8 {
+
+     0%   {opacity: 0;}
+    28%  {opacity: 0;}
+    31%  {opacity: 1;}
+}@keyframes cactus9 {
+
+     0%   {opacity: 0;}
+    31%  {opacity: 0;}
+    34%  {opacity: 1;}
+}@keyframes cactus10 {
+
+     0%   {opacity: 0;}
+    34%  {opacity: 0;}
+    37%  {opacity: 1;}
+}@keyframes cactus11 {
+
+     0%   {opacity: 0;}
+    40%  {opacity: 0;}
+    43%  {opacity: 1;}
+}@keyframes cactus12 {
+
+     0%   {opacity: 0;}
+    43%  {opacity: 0;}
+    46%  {opacity: 1;}
+}@keyframes cactus13 {
+
+     0%   {opacity: 0;}
+    46%  {opacity: 0;}
+    49%  {opacity: 1;}
 }

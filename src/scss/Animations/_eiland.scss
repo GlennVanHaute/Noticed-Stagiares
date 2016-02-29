@@ -1,4 +1,4 @@
-
+  
           
 .eilandomlijning {
   stroke-dasharray: 1000;
@@ -11,6 +11,18 @@
 .eilandbollen {
 
   animation: eilandalpha 10s linear forwards;
+  
+}
+
+.eilandbollen {
+
+  animation: eilandalpha 10s linear forwards;
+  
+}
+
+.eilandbollen1 {
+
+  animation: kokosnoot 10s linear forwards;
   
 }
 
@@ -35,7 +47,7 @@
 
 @keyframes einlandstroke2 {
 
-     0%   {stroke-dashoffset: 1000;}
+    0%   {stroke-dashoffset: 1000;}
     3%  {stroke-dashoffset: 1000;}
     70%  {stroke-dashoffset: 0;}
     75%  {stroke-dashoffset: 0;}
@@ -46,6 +58,21 @@
 
      0%   {opacity: 0;}
     22%  {opacity: 0;}
-    23%  {opacity: 1;}
+    23%  {opacity: 0;}
+    100%  {opacity: 0;}
+
+}
+
+@keyframes kokosnoot {
+
+     0%   {transform: translate(0px,0px);}
+     22% {transform: translate(0px,0px);}
+     25% {transform: translate(0px,0px);}
+     33% {transform: translate(0px, 95px);}
+     33% {transform: translate(0px, 95px);}
+     36% {transform: translate(3px, 95px);}
+     40% {transform: translate(0px, 95px);}
+     100% {transform: translate(0px, 95px);}
+    
 
 }
