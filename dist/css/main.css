@@ -370,10 +370,55 @@ th {
 /* No files to import found in partials//**/
 /** */
 footer {
-  height: 250px;
+  height: 100%;
   width: 100%;
   background-color: #1AB1A1;
   float: left; }
+
+footer .container {
+  width: 960px;
+  background-color: #1AB1A1;
+  margin-left: auto;
+  margin-right: auto; }
+
+footer .title {
+  color: #fff;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-family: "Regular", sans-serif; }
+
+footer .profile {
+  float: left;
+  padding-bottom: 25px; }
+
+footer .profile1 {
+  position: relative; }
+
+footer img {
+  width: 320px; }
+
+footer ul {
+  list-style-type: none; }
+
+footer li {
+  position: absolute;
+  margin-right: 5%;
+  bottom: 5%;
+  color: #fff;
+  background-color: #1AB1A1;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center; }
+
+footer li .first {
+  left: 25%; }
+
+footer li.middle {
+  left: 50%; }
+
+footer li.last {
+  left: 75%; }
 
 .header-section {
   width: 100%;
@@ -580,7 +625,10 @@ body {
     width: 100%;
     text-align: left; }
     .left p {
-      padding: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
       font-family: "Light", sans-serif; }
     .left .title {
       width: 85%;
@@ -671,15 +719,16 @@ body {
   -webkit-animation: beanstroke 10s linear forwards;
           animation: beanstroke 10s linear forwards; }
 
+.beans.active svg#Layer_1 .beanomlijning1 {
+  opacity: 0;
+  -webkit-animation: smoke 10s infinite forwards;
+          animation: smoke 10s infinite forwards; }
+
 .beans.active svg#Layer_1 .beanomlijning2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: beanstroke2 10s linear forwards;
           animation: beanstroke2 10s linear forwards; }
-
-.beans.active svg#Layer_1 .beanBollen {
-  -webkit-animation: beanalpha 10s linear forwards;
-          animation: beanalpha 10s linear forwards; }
 
 @-webkit-keyframes beanstroke {
   0% {
@@ -721,21 +770,57 @@ body {
   100% {
     stroke-dashoffset: 0; } }
 
-@-webkit-keyframes beanalpha {
+@-webkit-keyframes smoke {
   0% {
     opacity: 0; }
-  12% {
+  19% {
+    opacity: 1; }
+  20% {
     opacity: 0; }
-  15% {
-    opacity: 1; } }
+  30% {
+    opacity: 0; }
+  45% {
+    opacity: 1; }
+  56% {
+    opacity: 0; }
+  65% {
+    opacity: 0; }
+  75% {
+    opacity: 1; }
+  78% {
+    opacity: 0; }
+  85% {
+    opacity: 0; }
+  95% {
+    opacity: 1; }
+  97% {
+    opacity: 0; } }
 
-@keyframes beanalpha {
+@keyframes smoke {
   0% {
     opacity: 0; }
-  12% {
+  19% {
+    opacity: 1; }
+  20% {
     opacity: 0; }
-  15% {
-    opacity: 1; } }
+  30% {
+    opacity: 0; }
+  45% {
+    opacity: 1; }
+  56% {
+    opacity: 0; }
+  65% {
+    opacity: 0; }
+  75% {
+    opacity: 1; }
+  78% {
+    opacity: 0; }
+  85% {
+    opacity: 0; }
+  95% {
+    opacity: 1; }
+  97% {
+    opacity: 0; } }
 
 .bets.active svg#Layer_1 .handomlijning {
   stroke-dasharray: 1000;
@@ -1627,53 +1712,28 @@ body {
   100% {
     stroke-dashoffset: 0; } }
 
-.aap.active svg#Layer_1 .monkeyomleiding {
+.aap.active g#Layer_1 .monkeyomleiding {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: monkey 10s linear forwards;
           animation: monkey 10s linear forwards; }
 
-.aap.active svg#Layer_1 .monkeyomleiding1 {
+.aap.active g#Layer_1 .monkeyomleiding1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: monkey1 10s linear forwards;
           animation: monkey1 10s linear forwards; }
 
-.aap.active svg#Layer_1 .monkeyomleiding2 {
+.aap.active g#Layer_1 .monkeyomleiding2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: monkey2 10s linear forwards;
           animation: monkey2 10s linear forwards; }
 
-.dun {
-  stroke-width: 3; }
-
-.dik {
-  stroke-width: 8; }
-
-.st0 {
-  fill: none;
-  stroke: #BCE0DE;
-  stroke-width: 8;
-  stroke-miterlimit: 10; }
-
-.st1 {
-  fill: none;
-  stroke: #BCE0DE;
-  stroke-width: 8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10; }
-
-.st2 {
-  fill: none;
-  stroke: #BCE0DE;
-  stroke-width: 8;
-  stroke-linecap: round;
-  stroke-miterlimit: 10; }
-
-.st3 {
-  fill: #BCE0DE; }
+.aap.active g.wink {
+  opacity: 0;
+  -webkit-animation: monkey3 10s linear forwards;
+          animation: monkey3 10s linear forwards; }
 
 @-webkit-keyframes monkey {
   0% {
@@ -1746,6 +1806,30 @@ body {
     stroke-dashoffset: 0; }
   100% {
     stroke-dashoffset: 0; } }
+
+@-webkit-keyframes monkey3 {
+  0% {
+    opacity: 0; }
+  22% {
+    opacity: 0; }
+  23% {
+    opacity: 1; }
+  27% {
+    opacity: 1; }
+  28% {
+    opacity: 0; } }
+
+@keyframes monkey3 {
+  0% {
+    opacity: 0; }
+  22% {
+    opacity: 0; }
+  23% {
+    opacity: 1; }
+  27% {
+    opacity: 1; }
+  28% {
+    opacity: 0; } }
 
 .pizza.active svg#Layer_1 .pizzaomleining {
   stroke-dasharray: 1000;

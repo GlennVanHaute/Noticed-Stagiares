@@ -8,6 +8,11 @@
   stroke-dashoffset: 1000;
   animation: beanstroke 10s linear forwards;
   
+} 
+.beans.active svg#Layer_1 .beanomlijning1 {
+  opacity:0;
+  animation: smoke 10s infinite forwards;
+  
 }  
 
 .beans.active svg#Layer_1 .beanomlijning2 {
@@ -18,11 +23,7 @@
 }         
 
 
-.beans.active svg#Layer_1 .beanBollen {
 
-  animation: beanalpha 10s linear forwards;
-  
-}
 
 @keyframes beanstroke {
 
@@ -41,10 +42,21 @@
     
 }
 
-@keyframes beanalpha {
 
-     0%   {opacity: 0;}
-    12%  {opacity: 0;}
-    15%  {opacity: 1;}
+@keyframes smoke {
+
+    0%   {opacity:0;}
+    19%   {opacity:1;}
+    20%  {;opacity:0;}
+    30%   {opacity:0;}
+    45%   {opacity:1;}
+    56%   {opacity:0;}
+    65%   {opacity:0;}
+    75%   {opacity:1;}
+    78%   {opacity:0;}
+    85%   {opacity:0;}
+    95%   {opacity:1;}
+    97%   {opacity:0;}
+    
 
 }

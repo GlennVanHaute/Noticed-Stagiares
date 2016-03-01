@@ -1,10 +1,10 @@
 
 
 .aap {
-
+ 
 }
 
-.aap.active svg#Layer_1 .monkeyomleiding{
+.aap.active g#Layer_1 .monkeyomleiding{
 
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
@@ -12,30 +12,25 @@
    
 }         
 
-.aap.active svg#Layer_1 .monkeyomleiding1 {
+.aap.active g#Layer_1 .monkeyomleiding1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;  
   animation: monkey1 10s linear forwards;
 }
 
-.aap.active svg#Layer_1 .monkeyomleiding2 
+.aap.active g#Layer_1 .monkeyomleiding2 
 {
     stroke-dasharray: 1000;
   stroke-dashoffset: 1000; 
   animation: monkey2 10s linear forwards;
 }
 
-.dun{
-  stroke-width:3;
+.aap.active g.wink {
+    opacity: 0;
+    animation: monkey3 10s linear forwards;
+
 }
-.dik {
-  stroke-width:8;
-}
-.st0{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-miterlimit:10;}
-.st1{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.st2{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
-.st3{fill:#BCE0DE;
-  }
+
 
 
 @keyframes monkey {
@@ -63,4 +58,12 @@
     75%  {stroke-dashoffset: 0;}
     100% {stroke-dashoffset: 0;}
 
+}
+@keyframes monkey3 {
+
+     0% {opacity: 0;}
+     22% {opacity: 0;}
+     23% {opacity: 1;}
+     27% {opacity: 1;}
+     28% {opacity: 0;}
 }

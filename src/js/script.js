@@ -19,7 +19,7 @@ $(function(){
 					
 					
 
-					//IF VISIBLE SHOW CONTENT
+					//IF VISIBLE ADD ACTIVE CLASS TO PLAY ANIMATION
 					if (pizza == true) {
 						$(".pizza").addClass("active");
 
