@@ -1,12 +1,14 @@
-         
-.handomlijning {
+.bets {
+  
+}         
+.bets.active svg#Layer_1 .handomlijning {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: handstroke 10s linear forwards;
   
 }  
 
-.handomlijning2 {
+.bets.active svg#Layer_1 .handomlijning2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: handstroke2 10s linear forwards;
@@ -14,7 +16,7 @@
 }         
 
 
-.beanBollen {
+.bets.active svg#Layer_1 .beanBollen {
 
   animation: beanalpha 10s linear forwards;
   

@@ -1,12 +1,16 @@
           
-.chefomleiding {
+.kitchen {
+
+}
+
+.kitchen.active svg#Layer_1 .chefomleiding {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: chef 4s linear forwards;
   
 }         
 
-.chefomleiding1 {
+.kitchen.active svg#Layer_1 .chefomleiding1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: chef1 4s linear forwards;

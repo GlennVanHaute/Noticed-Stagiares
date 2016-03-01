@@ -665,19 +665,19 @@ body {
   .secondcollum {
     float: left; } }
 
-.beanomlijning {
+.beans.active svg#Layer_1 .beanomlijning {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: beanstroke 10s linear forwards;
           animation: beanstroke 10s linear forwards; }
 
-.beanomlijning2 {
+.beans.active svg#Layer_1 .beanomlijning2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: beanstroke2 10s linear forwards;
           animation: beanstroke2 10s linear forwards; }
 
-.beanBollen {
+.beans.active svg#Layer_1 .beanBollen {
   -webkit-animation: beanalpha 10s linear forwards;
           animation: beanalpha 10s linear forwards; }
 
@@ -737,19 +737,19 @@ body {
   15% {
     opacity: 1; } }
 
-.handomlijning {
+.bets.active svg#Layer_1 .handomlijning {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: handstroke 10s linear forwards;
           animation: handstroke 10s linear forwards; }
 
-.handomlijning2 {
+.bets.active svg#Layer_1 .handomlijning2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: handstroke2 10s linear forwards;
           animation: handstroke2 10s linear forwards; }
 
-.beanBollen {
+.bets.active svg#Layer_1 .beanBollen {
   -webkit-animation: beanalpha 10s linear forwards;
           animation: beanalpha 10s linear forwards; }
 
@@ -809,57 +809,57 @@ body {
   15% {
     opacity: 1; } }
 
-.cactusomleiding {
+.cactus.active svg#Layer_1 .cactusomleiding {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: cactus 10s linear forwards;
           animation: cactus 10s linear forwards; }
 
-.opacitymaster {
+.cactus.active svg#Layer_1 .opacitymaster {
   -webkit-animation: cactus2 10s linear forwards;
           animation: cactus2 10s linear forwards; }
 
-.opacitymaster1 {
+.cactus.active svg#Layer_1 .opacitymaster1 {
   -webkit-animation: cactus3 6s linear forwards;
           animation: cactus3 6s linear forwards; }
 
-.opacitymaster2 {
+.cactus.active svg#Layer_1 .opacitymaster2 {
   -webkit-animation: cactus4 6s linear forwards;
           animation: cactus4 6s linear forwards; }
 
-.opacitymaster3 {
+.cactus.active svg#Layer_1 .opacitymaster3 {
   -webkit-animation: cactus5 6s linear forwards;
           animation: cactus5 6s linear forwards; }
 
-.opacitymaster4 {
+.cactus.active svg#Layer_1 .opacitymaster4 {
   -webkit-animation: cactus6 6s linear forwards;
           animation: cactus6 6s linear forwards; }
 
-.opacitymaster5 {
+.cactus.active svg#Layer_1 .opacitymaster5 {
   -webkit-animation: cactus7 6s linear forwards;
           animation: cactus7 6s linear forwards; }
 
-.opacitymaster6 {
+.cactus.active svg#Layer_1 .opacitymaster6 {
   -webkit-animation: cactus8 6s linear forwards;
           animation: cactus8 6s linear forwards; }
 
-.opacitymaster7 {
+.cactus.active svg#Layer_1 .opacitymaster7 {
   -webkit-animation: cactus9 6s linear forwards;
           animation: cactus9 6s linear forwards; }
 
-.opacitymaster8 {
+.cactus.active svg#Layer_1 .opacitymaster8 {
   -webkit-animation: cactus10 6s linear forwards;
           animation: cactus10 6s linear forwards; }
 
-.opacitymaster9 {
+.cactus.active svg#Layer_1 .opacitymaster9 {
   -webkit-animation: cactus11 6s linear forwards;
           animation: cactus11 6s linear forwards; }
 
-.opacitymaster10 {
+.cactus.active svg#Layer_1 .opacitymaster10 {
   -webkit-animation: cactus12 6s linear forwards;
           animation: cactus12 6s linear forwards; }
 
-.opacitymaster11 {
+.cactus.active svg#Layer_1 .opacitymaster11 {
   -webkit-animation: cactus13 6s linear forwards;
           animation: cactus13 6s linear forwards; }
 
@@ -1241,23 +1241,23 @@ body {
     -webkit-transform: translate(0px, 95px);
             transform: translate(0px, 95px); } }
 
-.gamingomlijning {
+.fifa.active svg#Layer_1 .gamingomlijning {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: gamingstroke 10s linear forwards;
           animation: gamingstroke 10s linear forwards; }
 
-.gamingomlijning2 {
+.fifa.active svg#Layer_1 .gamingomlijning2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: gamingstroke2 10s linear forwards;
           animation: gamingstroke2 10s linear forwards; }
 
-.gamingbollen {
+.fifa.active svg#Layer_1 .gamingbollen {
   -webkit-animation: gamingalpha 10s linear forwards;
           animation: gamingalpha 10s linear forwards; }
 
-.gamepad {
+.fifa.active svg.gamepad {
   -webkit-animation: shake 10s  infinite;
           animation: shake 10s  infinite; }
 
@@ -1567,13 +1567,13 @@ body {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); } }
 
-.chefomleiding {
+.kitchen.active svg#Layer_1 .chefomleiding {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: chef 4s linear forwards;
           animation: chef 4s linear forwards; }
 
-.chefomleiding1 {
+.kitchen.active svg#Layer_1 .chefomleiding1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: chef1 4s linear forwards;
@@ -1747,31 +1747,31 @@ body {
   100% {
     stroke-dashoffset: 0; } }
 
-.pizzaomleining {
+.pizza.active svg#Layer_1 .pizzaomleining {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: pizza 2.5s linear forwards;
           animation: pizza 2.5s linear forwards; }
 
-.pizzaverdeling {
+.pizza.active svg#Layer_1 .pizzaverdeling {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: pizza2 2.5s linear forwards;
           animation: pizza2 2.5s linear forwards; }
 
-.pizzastrepen {
+.pizza.active svg#Layer_1 .pizzastrepen {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: pizza3 2.5s linear forwards;
           animation: pizza3 2.5s linear forwards; }
 
-.pizzacirkel {
+.pizza.active svg#Layer_1 .pizzacirkel {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: pizza4 2.5s linear forwards;
           animation: pizza4 2.5s linear forwards; }
 
-.pizzabollen {
+.pizza.active svg#Layer_1 .pizzabollen {
   -webkit-animation: pizza5 2.5s linear forwards;
           animation: pizza5 2.5s linear forwards; }
 

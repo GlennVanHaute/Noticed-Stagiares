@@ -1,11 +1,15 @@
-  .gamingomlijning {
+
+.fifa {
+    
+}
+.fifa.active svg#Layer_1  .gamingomlijning {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: gamingstroke 10s linear forwards;
   
 }  
 
-.gamingomlijning2 {
+ .fifa.active svg#Layer_1 .gamingomlijning2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: gamingstroke2 10s linear forwards;
@@ -13,13 +17,13 @@
 }         
 
 
-.gamingbollen {
+.fifa.active svg#Layer_1 .gamingbollen {
 
   animation: gamingalpha 10s linear forwards;
   
 }
 
-.gamepad {
+.fifa.active svg.gamepad {
   animation: shake 10s  infinite;
 }
 

@@ -1,29 +1,33 @@
-.pizzaomleining {
+.pizza {
+
+}
+
+.pizza.active svg#Layer_1  .pizzaomleining {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: pizza 2.5s linear forwards;
   
 }					
-.pizzaverdeling {
+.pizza.active svg#Layer_1 .pizzaverdeling {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: pizza2 2.5s linear forwards;
   
 }
-.pizzastrepen {
+.pizza.active svg#Layer_1 .pizzastrepen {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: pizza3 2.5s linear forwards;
   
 }
 
-.pizzacirkel {
+.pizza.active svg#Layer_1 .pizzacirkel {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: pizza4 2.5s linear forwards;
   
 }
-.pizzabollen {
+.pizza.active svg#Layer_1 .pizzabollen {
   animation: pizza5 2.5s linear forwards;
   
 }

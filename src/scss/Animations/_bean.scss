@@ -1,12 +1,16 @@
 
-.beanomlijning {
+.beans {
+
+}
+
+.beans.active svg#Layer_1 .beanomlijning {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: beanstroke 10s linear forwards;
   
 }  
 
-.beanomlijning2 {
+.beans.active svg#Layer_1 .beanomlijning2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: beanstroke2 10s linear forwards;
@@ -14,7 +18,7 @@
 }         
 
 
-.beanBollen {
+.beans.active svg#Layer_1 .beanBollen {
 
   animation: beanalpha 10s linear forwards;
   
