@@ -1,26 +1,25 @@
   
-          
-.eilandomlijning {
+ .eiland {
+
+ }         
+.eiland.active svg#Layer_1 .eilandomlijning {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: einlandstroke 10s linear forwards;
   
 }         
 
-
-.eilandbollen {
-
-  animation: eilandalpha 10s linear forwards;
-  
-}
-
-.eilandbollen {
+.eiland.active svg#Layer_1 .eilandbollen {
 
   animation: eilandalpha 10s linear forwards;
   
 }
+.eiland.active svg#Layer_1 .eilandbollen {
 
-.eilandbollen1 {
+  animation: eilandalpha 10s linear forwards;
+  
+}
+.eiland.active svg#Layer_1 .eilandbollen1 {
 
   animation: kokosnoot 10s linear forwards;
   

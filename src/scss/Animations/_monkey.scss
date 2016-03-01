@@ -1,24 +1,28 @@
-          
-.monkeyomleiding {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: chef 10s linear forwards;
 
-  
-}         
 
-.chefomleiding1 {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: chef1 10s linear forwards;
-  
+.aap {
+
 }
 
-.chefomleiding2 {
+.aap.active svg#Layer_1 .monkeyomleiding{
+
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: chef2 10s linear forwards;
-  
+  animation: monkey 10s linear forwards;
+   
+}         
+
+.aap.active svg#Layer_1 .monkeyomleiding1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;  
+  animation: monkey1 10s linear forwards;
+}
+
+.aap.active svg#Layer_1 .monkeyomleiding2 
+{
+    stroke-dasharray: 1000;
+  stroke-dashoffset: 1000; 
+  animation: monkey2 10s linear forwards;
 }
 
 .dun{
@@ -28,12 +32,13 @@
   stroke-width:8;
 }
 .st0{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-miterlimit:10;}
-                  .st1{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-                  .st2{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
-                  .st3{fill:#BCE0DE;}
+.st1{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st2{fill:none;stroke:#BCE0DE;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+.st3{fill:#BCE0DE;
+  }
 
 
-@keyframes chef {
+@keyframes monkey {
 
      0%   {stroke-dashoffset: 1000;}
     25%  {stroke-dashoffset: 0;}
@@ -41,7 +46,7 @@
     75%  {stroke-dashoffset: 0;}
     100% {stroke-dashoffset: 0;}
 }
-@keyframes chef1 {
+@keyframes monkey1 {
 
      0%   {stroke-dashoffset: 1000;}
     2%  {stroke-dashoffset: 1000;}
@@ -50,7 +55,7 @@
     100% {stroke-dashoffset: 0;}
 
 }
-@keyframes chef2 {
+@keyframes monkey2 {
 
      0%   {stroke-dashoffset: 1000;}
     3%  {stroke-dashoffset: 1000;}
