@@ -399,7 +399,7 @@ footer .profile1 .innertext {
   position: relative;
   margin-top: 16px;
   float: left;
-  width: 605px;
+  width: 305px;
   height: 317px;
   padding-left: 15px;
   background-color: #fff; }
@@ -506,6 +506,9 @@ body {
 
 .left p {
   color: #1AB1A1; }
+
+html {
+  background: url(../img/howtobenoticed_header.png) #000 no-repeat center center fixed; }
 
 .middle-section {
   width: 100%;
@@ -627,7 +630,7 @@ body {
   float: left;
   background-color: #fff; }
 
-video#bgvid {
+.imagebackground img {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -654,7 +657,7 @@ video#bgvid {
   transform: translateX(-50%) translateY(-50%);
   background: url(polina.jpg) no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.7;
   background-color: #000; }
 
 .arrow img {
@@ -665,19 +668,28 @@ video#bgvid {
   transform: translateX(-50%) translateY(-50%);
   bottom: 5%; }
 
-.logonoticed img {
-  width: 300px;
+.logonoticed svg {
+  width: 350px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
 
 .logohowtobe h1 {
   position: absolute;
-  top: 40%;
+  bottom: 30%;
   left: 50%;
   color: #1AB1A1;
+  font-family: light;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.logohowtobe h2 {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  color: #fff;
   font-family: light;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
@@ -1749,6 +1761,97 @@ video#bgvid {
   100% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); } }
+
+.arrow img {
+  -webkit-animation: arrow 2s linear infinite;
+          animation: arrow 2s linear infinite; }
+
+@-webkit-keyframes arrow {
+  33% {
+    bottom: 10px; }
+  36% {
+    bottom: 10px; }
+  40% {
+    bottom: 10px; }
+  100% {
+    bottom: 6px; } }
+
+@keyframes arrow {
+  33% {
+    bottom: 10px; }
+  36% {
+    bottom: 10px; }
+  40% {
+    bottom: 10px; }
+  100% {
+    bottom: 6px; } }
+
+.logonoticed svg#Layer_1 .stroke1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: noticedstroke 10s linear forwards;
+          animation: noticedstroke 10s linear forwards; }
+
+@-webkit-keyframes noticedstroke {
+  0% {
+    stroke-dashoffset: 1000; }
+  20% {
+    stroke-dashoffset: 0; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes noticedstroke {
+  0% {
+    stroke-dashoffset: 1000; }
+  20% {
+    stroke-dashoffset: 0; }
+  50% {
+    stroke-dashoffset: 0; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+.logonoticed svg#Layer_1 .stroke2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  opacity: 1;
+  -webkit-animation: noticedstroke2 10s linear forwards;
+          animation: noticedstroke2 10s linear forwards; }
+
+@-webkit-keyframes noticedstroke2 {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0; }
+  15% {
+    stroke-dashoffset: 1000;
+    opacity: 0; }
+  16% {
+    stroke-dashoffset: 1000;
+    opacity: 1; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes noticedstroke2 {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0; }
+  15% {
+    stroke-dashoffset: 1000;
+    opacity: 0; }
+  16% {
+    stroke-dashoffset: 1000;
+    opacity: 1; }
+  75% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0; } }
 
 .kitchen.active svg#Layer_1 .chefomleiding {
   stroke-dasharray: 1000;

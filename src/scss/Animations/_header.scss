@@ -1,0 +1,44 @@
+.arrow img {
+
+  animation: arrow 2s linear infinite;
+}
+
+@keyframes arrow {
+
+
+     33%  {bottom:  10px;}
+     36% {bottom:  10px;}
+     40%  {bottom:  10px;}
+     100% { bottom:  6px;}
+}
+
+.logonoticed svg#Layer_1 .stroke1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: noticedstroke 10s linear forwards;
+  
+} 
+@keyframes noticedstroke {
+
+     0%   {stroke-dashoffset: 1000;}
+    20%  {stroke-dashoffset: 0;}
+    50%  {stroke-dashoffset: 0;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
+
+.logonoticed svg#Layer_1 .stroke2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  opacity: 1;
+  animation: noticedstroke2 10s linear forwards;
+  
+} 
+@keyframes noticedstroke2 {
+
+     0%   {stroke-dashoffset: 1000;opacity:0;}
+    15%  {stroke-dashoffset: 1000;opacity:0;}
+    16%  {stroke-dashoffset: 1000;opacity:1;}
+    75%  {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 0;}
+}
