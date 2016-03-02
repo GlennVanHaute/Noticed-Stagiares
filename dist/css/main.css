@@ -663,7 +663,7 @@ video#bgvid {
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  bottom: 35%; }
+  bottom: 5%; }
 
 .logonoticed img {
   width: 300px;
@@ -677,7 +677,7 @@ video#bgvid {
   position: absolute;
   top: 40%;
   left: 50%;
-  color: #fff;
+  color: #1AB1A1;
   font-family: light;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
