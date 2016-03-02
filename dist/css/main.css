@@ -392,7 +392,36 @@ footer .profile {
   padding-bottom: 25px; }
 
 footer .profile1 {
-  position: relative; }
+  position: relative;
+  float: left; }
+
+footer .profile1 .innertext {
+  position: relative;
+  margin-top: 16px;
+  float: left;
+  width: 605px;
+  height: 317px;
+  padding-left: 15px;
+  background-color: #fff; }
+
+footer .profile h1 {
+  color: #000;
+  font-family: "Regular";
+  font-size: 2em; }
+
+footer .profile h2 {
+  color: #000;
+  font-family: "Light";
+  font-size: 1.3em;
+  margin-top: -15px; }
+
+footer .profile2 {
+  position: relative;
+  float: left; }
+
+footer .profile3 {
+  position: relative;
+  float: left; }
 
 footer img {
   width: 320px; }
@@ -422,9 +451,7 @@ footer li.last {
 
 .header-section {
   width: 100%;
-  height: 300px;
-  background-color: #1AB1A1;
-  position: relative; }
+  height: 100vh; }
 
 .header {
   width: 960px;
@@ -475,22 +502,30 @@ footer li.last {
     transform: translateX(-50%) translateY(-50%); } }
 
 body {
-  background-color: #fff; }
+  position: relative; }
 
 .left p {
   color: #1AB1A1; }
 
 .middle-section {
-  width: 960px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; }
+
+.testwerk {
+  width: 100%;
   min-height: 300px;
   height: 100%;
+  float: left;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-color: #fff; }
 
 .content {
-  width: 100%;
+  width: 960px;
   margin-top: 15px;
-  float: left; }
+  margin: 0 auto;
+  background-color: #fff; }
 
 .steps {
   float: left;
@@ -512,7 +547,8 @@ body {
   margin-right: auto;
   clear: both;
   font-family: "Black", sans-serif;
-  border-bottom: 4px solid #1AB1A1; }
+  border-bottom: 4px solid #1AB1A1;
+  background-color: #fff; }
 
 .left {
   position: relative;
@@ -584,10 +620,72 @@ body {
 .firstcollum {
   float: left;
   width: 80%;
-  padding-right: 15px; }
+  padding-right: 15px;
+  background-color: #fff; }
 
 .secondcollum {
-  float: left; }
+  float: left;
+  background-color: #fff; }
+
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; }
+
+.filter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -99;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  background-color: #000; }
+
+.arrow img {
+  width: 3%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  bottom: 35%; }
+
+.logonoticed img {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.logohowtobe h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: #fff;
+  font-family: light;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.middlemissing {
+  background-color: #fff;
+  float: left;
+  width: 100%; }
 
 @media (max-width: 960px) {
   .middle-section {
