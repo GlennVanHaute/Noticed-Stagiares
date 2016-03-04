@@ -1,15 +1,15 @@
 .arrow img {
 
-  animation: arrow 2s linear infinite;
+  animation: arrow 2s ease-out infinite;
 }
 
 @keyframes arrow {
 
-
-     33%  {bottom:  10px;}
-     36% {bottom:  10px;}
-     40%  {bottom:  10px;}
-     100% { bottom:  6px;}
+      
+     33%  {bottom:  30px;}
+     36% {bottom:  30px;}
+     40%  {bottom:  30px;}
+     
 }
 
 .logonoticed svg#Layer_1 .stroke1 {

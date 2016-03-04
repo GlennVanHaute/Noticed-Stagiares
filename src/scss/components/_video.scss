@@ -50,7 +50,7 @@ video#bgvid {
     background-color: #000;
 }
 .arrow img {
-    width: 3%;
+    width: 30px;
     position: absolute;
         left: 50%;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -62,7 +62,7 @@ video#bgvid {
 }
 
 .logonoticed svg{
-    width: 350px;
+    width: 250px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -73,31 +73,38 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
 }
 
-
-.logohowtobe h1{
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    color: $primary-color;
-    font-family: light;
-    -webkit-transform: translateX(-50%) translateY(-50%);
+.logohowtobe {
+position: absolute;
+top: 70%;
+width: 100%;
+left: 50%;
+text-align: center;
+-webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+
+}
+.logohowtobe h1{
+    color: $primary-color;
+    font-family: light;
+
 }
 
 .logohowtobe h2{
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
+
     color: $secondary-color;
     font-family: light;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+.logohowtobe h2 a{
+
+    color: $primary-color;
+    font-family: light;
+    text-decoration: none;
+    
 }
 
 .middlemissing {

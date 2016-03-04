@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -375,83 +376,89 @@ footer {
   background-color: #1AB1A1;
   float: left; }
 
-footer .container {
-  width: 960px;
-  background-color: #1AB1A1;
-  margin-left: auto;
-  margin-right: auto; }
-
-footer .title {
+.title-stagiaires {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  height: 350px;
+  font-size: 1.8em;
+  line-height: 350px;
+  background-color: #22313F;
+  font-family: "Light", sans-serif;
   color: #fff;
-  padding-top: 25px;
-  padding-bottom: 5px;
-  font-family: "Regular", sans-serif; }
-
-footer .profile {
-  float: left;
-  padding-bottom: 25px; }
-
-footer .profile1 {
-  position: relative;
-  float: left; }
-
-footer .profile1 .innertext {
-  position: relative;
-  margin-top: 16px;
-  float: left;
-  width: 305px;
-  height: 317px;
-  padding-left: 15px;
-  background-color: #fff; }
-
-footer .profile h1 {
-  color: #000;
-  font-family: "Regular";
-  font-size: 2em; }
-
-footer .profile h2 {
-  color: #000;
-  font-family: "Light";
-  font-size: 1.3em;
-  margin-top: -15px; }
-
-footer .profile2 {
-  position: relative;
-  float: left; }
-
-footer .profile3 {
-  position: relative;
-  float: left; }
-
-footer img {
-  width: 320px; }
-
-footer ul {
-  list-style-type: none; }
-
-footer li {
-  position: absolute;
-  margin-right: 5%;
-  bottom: 5%;
-  color: #fff;
-  background-color: #1AB1A1;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  text-align: center; }
-
-footer li .first {
-  left: 25%; }
-
-footer li.middle {
-  left: 50%; }
-
-footer li.last {
-  left: 75%; }
+  background-color: #000;
+  background-image: url(../img/howtobenoticed_header2.png);
+  background-size: cover;
+  background-position: center center; }
 
 footer .profileimages img {
   width: 33.33%;
   float: left; }
+
+footer .banaan {
+  height: 0;
+  padding-bottom: 33.3333%;
+  float: left;
+  background-size: cover; }
+
+footer .profileimages1 {
+  width: 33.33%;
+  background-image: url("../img/Renée_omhoog2cropzondertekst.jpg"); }
+
+footer .profileimages1:hover {
+  width: 33.33%;
+  background-image: url("../img/Renée_omhoog2crop.jpg"); }
+
+footer .profileimages2 {
+  width: 33.33%;
+  background-image: url("../img/Glekke_omhoog2cropzondertekst.png"); }
+
+footer .profileimages2:hover {
+  width: 33.33%;
+  background-image: url("../img/Glekke_omhoog2crop.jpg"); }
+
+footer .profileimages3 {
+  width: 33.33%;
+  background-image: url("../img/Annelore_omhoog2cropzondertekst.jpg"); }
+
+footer .profileimages3:hover {
+  width: 33.33%;
+  background-image: url("../img/Annelore_omhoog2crop.jpg"); }
+
+footer .namenprofielen {
+  width: 100%;
+  float: left;
+  background-color: #22313F;
+  font-family: "Thin", sans-serif;
+  text-align: center; }
+
+footer .naam {
+  width: 33.33%;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  float: left; }
+
+footer .namenprofielen a {
+  color: white;
+  text-decoration: none; }
+
+footer #profiles-mobile {
+  display: none; }
+
+footer .image-mobile img {
+  width: 100%; }
+
+footer .naam-mobile {
+  height: 50px;
+  line-height: 50px;
+  background-color: #22313F;
+  font-family: "Light", sans-serif;
+  text-align: center; }
+
+footer .naam-mobile a {
+  color: white;
+  text-decoration: none; }
 
 .header-section {
   width: 100%;
@@ -472,7 +479,7 @@ footer .profileimages img {
   transform: translateX(-50%) translateY(-50%); }
 
 .logonoticed img {
-  width: 300px;
+  width: 18%;
   position: absolute;
   top: 60%;
   left: 50%;
@@ -492,7 +499,7 @@ footer .profileimages img {
 @media (max-width: 960px) {
   .header {
     width: 100%;
-    height: 300px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto; }
   .subtext {
@@ -679,7 +686,7 @@ video#bgvid {
   background-color: #000; }
 
 .arrow img {
-  width: 3%;
+  width: 30px;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -687,159 +694,39 @@ video#bgvid {
   bottom: 5%; }
 
 .logonoticed svg {
-  width: 350px;
+  width: 250px;
   position: absolute;
   top: 40%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
 
-.logohowtobe h1 {
+.logohowtobe {
   position: absolute;
-  bottom: 30%;
+  top: 70%;
+  width: 100%;
   left: 50%;
-  color: #1AB1A1;
-  font-family: light;
+  text-align: center;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
 
+.logohowtobe h1 {
+  color: #1AB1A1;
+  font-family: light; }
+
 .logohowtobe h2 {
-  position: absolute;
-  bottom: 25%;
-  left: 50%;
   color: #fff;
+  font-family: light; }
+
+.logohowtobe h2 a {
+  color: #1AB1A1;
   font-family: light;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%); }
+  text-decoration: none; }
 
 .middlemissing {
   background-color: #fff;
   float: left;
   width: 100%; }
-
-@media (max-width: 960px) {
-  .middle-section {
-    width: 100%;
-    height: 100%; }
-  .content {
-    width: 100%;
-    margin-top: 15px;
-    float: left; }
-  .steps {
-    float: left;
-    width: 100%;
-    height: 100%;
-    background-color: #FFF;
-    margin-bottom: 50px;
-    position: relative; }
-  br {
-    display: none; }
-  .number {
-    text-align: center;
-    color: #1AB1A1;
-    font-size: 4em;
-    font-weight: bolder;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-    font-family: "Black", sans-serif;
-    border-bottom: 4px solid #1AB1A1; }
-  .left {
-    position: relative;
-    float: left;
-    width: 100%;
-    text-align: left; }
-    .left p {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 25px;
-      padding-right: 25px;
-      font-family: "Light", sans-serif; }
-    .left .title {
-      width: 85%;
-      font-weight: bold;
-      font-size: 1.7em;
-      margin-bottom: 15px;
-      font-family: "Black", sans-serif;
-      position: absolute;
-      left: 50%;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      top: 25%;
-      text-align: center; }
-      .left .title span {
-        padding-left: 0px; }
-    .left .text {
-      position: relative;
-      float: left;
-      left: 0;
-      top: 0;
-      font-size: 1.3em; }
-    .left .image1 {
-      float: left;
-      height: 200px;
-      margin-right: 25px;
-      position: relative;
-      top: 100px;
-      left: 50%;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%); }
-      .left .image1 img {
-        width: 130px;
-        height: 140px; }
-  .right {
-    position: relative;
-    float: left;
-    width: 100%;
-    text-align: left; }
-    .right p {
-      padding: 15px;
-      font-family: "Light", sans-serif; }
-    .right .title {
-      width: 85%;
-      z-index: initial;
-      font-weight: bold;
-      font-size: 1.7em;
-      margin-bottom: 15px;
-      font-family: "Black", sans-serif;
-      position: absolute;
-      top: 25%;
-      right: 0%;
-      left: 50%;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      text-align: center; }
-      .right .title span {
-        padding-right: 0px; }
-    .right .text {
-      position: relative;
-      float: left;
-      left: 0;
-      top: 0;
-      font-size: 1.3em; }
-    .right .image1 {
-      z-index: initial;
-      right: initial;
-      margin-top: initial;
-      position: relative;
-      float: left;
-      height: 200px;
-      top: 100px;
-      left: 50%;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%); }
-      .right .image1 img {
-        width: 130px;
-        height: 140px; }
-  .firstcollum {
-    float: left;
-    width: 80%;
-    padding-right: 15px; }
-  .secondcollum {
-    float: left; } }
 
 .beans.active svg#Layer_1 .beanomlijning {
   stroke-dasharray: 1000;
@@ -1781,28 +1668,24 @@ video#bgvid {
             transform: rotate(0deg); } }
 
 .arrow img {
-  -webkit-animation: arrow 2s linear infinite;
-          animation: arrow 2s linear infinite; }
+  -webkit-animation: arrow 2s ease-out infinite;
+          animation: arrow 2s ease-out infinite; }
 
 @-webkit-keyframes arrow {
   33% {
-    bottom: 10px; }
+    bottom: 30px; }
   36% {
-    bottom: 10px; }
+    bottom: 30px; }
   40% {
-    bottom: 10px; }
-  100% {
-    bottom: 6px; } }
+    bottom: 30px; } }
 
 @keyframes arrow {
   33% {
-    bottom: 10px; }
+    bottom: 30px; }
   36% {
-    bottom: 10px; }
+    bottom: 30px; }
   40% {
-    bottom: 10px; }
-  100% {
-    bottom: 6px; } }
+    bottom: 30px; } }
 
 .logonoticed svg#Layer_1 .stroke1 {
   stroke-dasharray: 1000;
@@ -2201,3 +2084,135 @@ video#bgvid {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media (max-width: 700px) {
+  footer #profiles {
+    display: none; }
+  footer .namenprofielen {
+    display: none; }
+  footer #profiles-mobile {
+    display: block; } }
+
+@media (max-width: 960px) {
+  .middle-section {
+    width: 100%;
+    height: 100%; }
+  .content {
+    width: 100%;
+    margin-top: 15px;
+    float: left; }
+  .steps {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    margin-bottom: 50px;
+    position: relative; }
+  br {
+    display: none; }
+  .number {
+    text-align: center;
+    color: #1AB1A1;
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    font-family: "Black", sans-serif;
+    border-bottom: 4px solid #1AB1A1; }
+  .left {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: left; }
+    .left p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-family: "Light", sans-serif; }
+    .left .title {
+      width: 85%;
+      font-weight: bold;
+      font-size: 1.7em;
+      margin-bottom: 15px;
+      font-family: "Black", sans-serif;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      top: 25%;
+      text-align: center; }
+      .left .title span {
+        padding-left: 0px; }
+    .left .text {
+      position: relative;
+      float: left;
+      left: 0;
+      top: 0;
+      font-size: 1.3em; }
+    .left .image1 {
+      float: left;
+      height: 200px;
+      margin-right: 25px;
+      position: relative;
+      top: 100px;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); }
+      .left .image1 img {
+        width: 130px;
+        height: 140px; }
+  .right {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: left; }
+    .right p {
+      padding: 15px;
+      font-family: "Light", sans-serif; }
+    .right .title {
+      width: 85%;
+      z-index: initial;
+      font-weight: bold;
+      font-size: 1.7em;
+      margin-bottom: 15px;
+      font-family: "Black", sans-serif;
+      position: absolute;
+      top: 25%;
+      right: 0%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      text-align: center; }
+      .right .title span {
+        padding-right: 0px; }
+    .right .text {
+      position: relative;
+      float: left;
+      left: 0;
+      top: 0;
+      font-size: 1.3em; }
+    .right .image1 {
+      z-index: initial;
+      right: initial;
+      margin-top: initial;
+      position: relative;
+      float: left;
+      height: 200px;
+      top: 100px;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); }
+      .right .image1 img {
+        width: 130px;
+        height: 140px; }
+  .firstcollum {
+    float: left;
+    width: 80%;
+    padding-right: 15px; }
+  .secondcollum {
+    float: left; } }

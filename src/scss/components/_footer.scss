@@ -5,102 +5,101 @@ footer {
 	float: left;
 }
 
-footer .container {
-	width: 960px;
-	background-color: $primary-color;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-footer .title{
-	color: #fff;
-	padding-top: 25px;
-	padding-bottom: 5px;
-	font-family: "Regular", sans-serif;
-
-}
-
-footer .profile {
-	float:left;
-	padding-bottom:25px;
-}
-
-footer .profile1 {
-	position:relative;
-	float:left;
-}
-
-footer .profile1  .innertext{
-	position:relative;
-	margin-top: 16px;
-	float: left;
-	width: 305px;
-	height: 317px;
-	padding-left: 15px;
-	background-color: $secondary-color;
-}
-
-footer .profile  h1{
-	color: #000;
-	font-family: "Regular";
-	font-size: 2em;
-}
-
-footer .profile  h2{
-	color: #000;
-	font-family: "Light";
-	font-size: 1.3em;
-	margin-top: -15px
-}
-
-footer .profile2 {
-	position:relative;
-	float:left;
-}
-
-footer .profile3 {
-	position:relative;
-	float:left;
-}
-
-footer img {
-	width: 320px;
-}
-
-footer ul {
-    list-style-type: none;
-
-}
-
-footer li {
-	position: absolute;
-	margin-right:5%;
-	bottom: 5%;
-	color: $secondary-color;
-	background-color: $primary-color;
-	width: 25px;
-	height: 25px;
-	border-radius: 50%;
+.title-stagiaires {
+	width: 100%;
+	position: relative;
 	text-align: center;
-
+	height: 350px;
+	font-size: 1.8em;
+	line-height: 350px;
+	background-color: #22313F;
+	font-family: "Light", sans-serif;
+	color: $secondary-color;
+	background-color: #000;
+    background-image: url(../img/howtobenoticed_header2.png);
+    background-size: cover;
+    background-position: center center;
 }
 
-footer li span {
-}
-
-footer li .first {
-	left: 25%;
-}
-
-footer li.middle {
-	left: 50%;
-}
-
-footer li.last {
-	left: 75%;
-}
 
 footer .profileimages   img{
 width: 33.33%;
 float:left;
+}
+footer .banaan {
+	    height: 0;
+    padding-bottom: 33.3333%;
+    float: left;
+    background-size: cover;
+}
+footer .profileimages1{
+	width:33.33%;
+	background-image: url('../img/Renée_omhoog2cropzondertekst.jpg');
+}
+
+footer .profileimages1:hover{
+	width:33.33%;
+	background-image: url('../img/Renée_omhoog2crop.jpg');
+}
+
+footer .profileimages2{
+	width:33.33%;
+	background-image: url('../img/Glekke_omhoog2cropzondertekst.png');
+	
+}
+
+footer .profileimages2:hover{
+	width:33.33%;
+	background-image: url('../img/Glekke_omhoog2crop.jpg');
+	
+}
+
+footer .profileimages3{
+	width:33.33%;
+	background-image: url('../img/Annelore_omhoog2cropzondertekst.jpg');
+
+}
+
+footer .profileimages3:hover{
+	width:33.33%;
+	background-image: url('../img/Annelore_omhoog2crop.jpg');
+
+}
+
+footer .namenprofielen {
+	width: 100%;
+	float:left;
+	background-color: #22313F;
+	font-family: "Thin", sans-serif;
+	text-align: center;
+}
+
+footer .naam {
+	width: 33.33%;
+	text-align: center;
+	line-height: 30px;
+	height:30px;
+	float:left;
+}
+footer .namenprofielen a {
+	color: white;
+	text-decoration: none;
+}
+
+footer #profiles-mobile {
+	display: none;
+}
+footer .image-mobile  img{
+	width: 100%
+}
+footer .naam-mobile {
+	height:50px;
+	line-height: 50px;
+	background-color: #22313F;
+	font-family: "Light", sans-serif;
+	text-align: center;
+}
+footer .naam-mobile a {
+	color: white;
+	text-decoration: none;
 }
