@@ -15,7 +15,7 @@
 .logonoticed svg#Layer_1 .stroke1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: noticedstroke 10s linear forwards;
+  animation: noticedstroke 5s linear forwards;
   
 } 
 @keyframes noticedstroke {
@@ -31,14 +31,14 @@
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   opacity: 1;
-  animation: noticedstroke2 10s linear forwards;
+  animation: noticedstroke2 5s linear forwards;
   
 } 
 @keyframes noticedstroke2 {
 
      0%   {stroke-dashoffset: 1000;opacity:0;}
-    15%  {stroke-dashoffset: 1000;opacity:0;}
-    16%  {stroke-dashoffset: 1000;opacity:1;}
+    19%  {stroke-dashoffset: 1000;opacity:0;}
+    20%  {stroke-dashoffset: 1000;opacity:1;}
     75%  {stroke-dashoffset: 0;}
     100% {stroke-dashoffset: 0;}
 }
