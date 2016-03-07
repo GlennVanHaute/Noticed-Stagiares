@@ -31,10 +31,26 @@ footer .banaan {
     padding-bottom: 33.3333%;
     float: left;
     background-size: cover;
+    position: relative;
 }
+
+footer .banaan p {
+	position:absolute;
+	top:40%;
+	left:50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+	color: $secondary-color;
+	font-family: "Liquid", sans-serif;
+	font-size: large;
+}
+
 footer .profileimages1{
 	width:33.33%;
-	background-image: url('../img/reneezondertekst.jpg');
+	background-image: url('../img/renéebl.jpg');
 }
 
 footer .profileimages1:hover{
@@ -42,9 +58,13 @@ footer .profileimages1:hover{
 	background-image: url('../img/renée.jpg');
 }
 
+footer .profileimages1:hover p{
+	display: none;
+}
+
 footer .profileimages2{
 	width:33.33%;
-	background-image: url('../img/glekkezondertekst.jpg');
+	background-image: url('../img/glekkebl.jpg');
 	
 }
 
@@ -54,15 +74,25 @@ footer .profileimages2:hover{
 	
 }
 
+footer .profileimages2:hover p{
+	display: none;
+	
+}
+
 footer .profileimages3{
 	width:33.33%;
-	background-image: url('../img/annelorezondertekst.jpg');
-
+	background-image: url('../img/annelorebl.jpg');
+ 
 }
 
 footer .profileimages3:hover{
 	width:33.33%;
 	background-image: url('../img/annelore.jpg');
+
+}
+
+footer .profileimages3:hover p{
+	display:none;
 
 }
 
