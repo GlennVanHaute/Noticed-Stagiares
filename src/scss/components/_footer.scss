@@ -10,7 +10,7 @@ footer {
 	position: relative;
 	text-align: center;
 	height: 350px;
-	font-size: 1.8em;
+	font-size: 2.3em;
 	line-height: 350px;
 	background-color: #22313F;
 	font-family: "Light", sans-serif;
@@ -32,6 +32,8 @@ footer .banaan {
     float: left;
     background-size: cover;
     position: relative;
+    	width: 100%;
+
 }
 
 footer .banaan p {
@@ -45,7 +47,7 @@ footer .banaan p {
     transform: translateX(-50%) translateY(-50%);
 	color: $secondary-color;
 	font-family: "Liquid", sans-serif;
-	font-size: large;
+	font-size: 2em;
 }
 
 footer .profileimages1{
