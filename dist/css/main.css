@@ -683,7 +683,7 @@ video#bgvid {
   background: url(polina.jpg) no-repeat;
   background-size: cover;
   opacity: 0.7;
-  background-color: #000; }
+  background-color: #1AB1A1; }
 
 .arrow img {
   width: 30px;
@@ -711,7 +711,7 @@ video#bgvid {
   transform: translateX(-50%) translateY(-50%); }
 
 .logohowtobe h1 {
-  color: #1AB1A1;
+  color: #fff;
   font-family: light; }
 
 .logohowtobe h2 {
@@ -719,7 +719,7 @@ video#bgvid {
   font-family: light; }
 
 .logohowtobe h2 a {
-  color: #1AB1A1;
+  color: #fff;
   font-family: light;
   text-decoration: none; }
 

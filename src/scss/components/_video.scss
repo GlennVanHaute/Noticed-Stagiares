@@ -47,7 +47,7 @@ video#bgvid {
     background: url(polina.jpg) no-repeat;
     background-size: cover; 
     opacity: 0.7;
-    background-color: #000;
+    background-color: $primary-color;
 }
 .arrow img {
     width: 30px;
@@ -87,7 +87,7 @@ text-align: center;
 
 }
 .logohowtobe h1{
-    color: $primary-color;
+    color: $secondary-color;
     font-family: light;
 
 }
@@ -101,7 +101,7 @@ text-align: center;
 
 .logohowtobe h2 a{
 
-    color: $primary-color;
+    color: $secondary-color;
     font-family: light;
     text-decoration: none;
     
