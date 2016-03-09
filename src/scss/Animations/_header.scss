@@ -1,13 +1,11 @@
 .arrow img {
 
-  animation: arrow 2s ease-out infinite;
+  animation: arrow 1.5s ease-out infinite;
 }
 
 @keyframes arrow {
 
       
-     33%  {bottom:  30px;}
-     36% {bottom:  30px;}
      40%  {bottom:  30px;}
      
 }

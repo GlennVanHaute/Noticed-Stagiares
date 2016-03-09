@@ -135,3 +135,24 @@ footer .naam-mobile a {
 	color: white;
 	text-decoration: none;
 }
+footer .footernoticed {
+	width: 100%;
+	float:left;
+	background-color: $secondary-color;
+
+}
+
+footer .social-media {
+	width: 30%;
+	float: left;
+}
+footer .info-noticed {
+	width: 70%;
+	float: left;
+}
+
+footer .info-noticed  h2{
+	font-size: 1.5em;
+	color: $primary-color;
+	font-family: 'Light', sans-serif;
+}
