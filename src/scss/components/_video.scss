@@ -14,6 +14,15 @@ video#bgvid {
     background: url(polina.jpg) no-repeat;
     background-size: cover; 
 }
+ .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  @media (max-width: 767px) {
+    video#bgvid {
+    display: none;
+  }
+}
 .imagebackground img { 
     position: fixed;
     top: 50%;
@@ -62,7 +71,7 @@ video#bgvid {
 }
 
 .logonoticed svg{
-    width: 250px;
+    width: 200px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -89,6 +98,7 @@ text-align: center;
 .logohowtobe h1{
     color: $secondary-color;
     font-family: light;
+    
 
 }
 
@@ -96,6 +106,8 @@ text-align: center;
 
     color: $secondary-color;
     font-family: light;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
