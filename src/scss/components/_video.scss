@@ -1,6 +1,6 @@
 video#bgvid { 
     position: fixed;
-    top: 50%;
+    top: 47%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
@@ -11,19 +11,20 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
+    background: url(../img/howtobenoticed_header.jpg) no-repeat;
     background-size: cover; 
 }
- .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
-  }
 
-  @media (max-width: 767px) {
+
+
+@media (max-width: 767px) {
     video#bgvid {
     display: none;
   }
+  
 }
-.imagebackground img { 
+
+.imagebackground  { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -36,8 +37,9 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
+    background: url(../img/howtobenoticed_header.jpg) no-repeat;
     background-size: cover; 
+    background-position: center center;
 }
 
 .filter {
@@ -53,7 +55,6 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
     background-size: cover; 
     opacity: 0.5;
     background-color: #000;
@@ -103,7 +104,9 @@ text-align: center;
 }
 
 .logohowtobe h2{
-
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     color: $secondary-color;
     font-family: light;
     padding-left: 15px;

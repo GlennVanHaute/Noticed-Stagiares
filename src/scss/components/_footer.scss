@@ -58,7 +58,7 @@
 	font-family: "Light", sans-serif;
 	color: $secondary-color;
 	background-color: #000;
-    background-image: url(../img/howtobenoticed_header2.png);
+    background-image: url(../img/howtobenoticed_header.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -99,7 +99,7 @@ float:left;
 
 .footertje .profileimages1:hover{
 	width:33.33%;
-	background-image: url('../img/renée.jpg');
+	background-image: url('../img/renee.jpg');
 }
 
 .footertje .profileimages1:hover p{
@@ -144,7 +144,7 @@ float:left;
 	width: 100%;
 	float:left;
 	background-color: #22313F;
-	font-family: "Thin", sans-serif;
+	font-family: "Light", sans-serif;
 	text-align: center;
 }
 
@@ -216,7 +216,7 @@ footer {
     color: #5B5B5B;
     text-transform: uppercase;
     letter-spacing: .5px;
-    font-family: "BrandonText-Regular";
+    font-family: "Regular";
     margin: 0 0 0.5em 0;
   }
 
@@ -232,7 +232,7 @@ footer {
 
   a, p {
     @include fontSize(14px);
-    font-family: "BrandonText-Light";
+    font-family: "Light";
     color: #898989;
     display: block;
     margin: 0;
@@ -462,7 +462,7 @@ footer {
     width: 13px;
     height: 10px;
     vertical-align: middle;
-    margin-top: 6px;
+    margin-top: 6px; 
   }
 }
 

@@ -10,7 +10,7 @@
      
 }
 
-.logonoticed svg#Layer_1 .stroke1 {
+.logonoticed svg#noticed-svg .stroke1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: noticedstroke 5s linear forwards;
@@ -25,7 +25,7 @@
     100% {stroke-dashoffset: 0;}
 }
 
-.logonoticed svg#Layer_1 .stroke2 {
+.logonoticed svg#noticed-svg .stroke2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   opacity: 1;
