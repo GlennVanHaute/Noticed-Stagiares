@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>social-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-6" sketch:type="MSArtboardGroup" transform="translate(-698.000000, -2442.000000)" fill="#585858">
+            <path d="M698,2445.00139 C698,2443.34377 699.343081,2442 701.001387,2442 L716.998613,2442 C718.656233,2442 720,2443.34308 720,2445.00139 L720,2460.99861 C720,2462.65623 718.656919,2464 716.998613,2464 L701.001387,2464 C699.343767,2464 698,2462.65692 698,2460.99861 L698,2445.00139 Z M707,2452.62181 L708.713858,2452.62181 L708.713858,2450.91425 C708.713858,2450.16058 708.732282,2448.99892 709.265646,2448.27925 C709.828027,2447.51756 710.599516,2447 711.926939,2447 C714.089412,2447 715,2447.31592 715,2447.31592 L714.57119,2449.92022 C714.57119,2449.92022 713.857274,2449.70772 713.1908,2449.70772 C712.523864,2449.70772 711.926939,2449.95281 711.926939,2450.63611 L711.926939,2452.62181 L714.660545,2452.62181 L714.46986,2455.16519 L711.926939,2455.16519 L711.926939,2464 L708.713858,2464 L708.713858,2455.16519 L707,2455.16519 L707,2452.62181 Z" id="social-facebook" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

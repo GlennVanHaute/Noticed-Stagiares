@@ -18,3 +18,42 @@
   font-family: 'Liquid';
   src: url('../fonts/DKLiquidEmbrace.ttf'); 
 }
+
+   /* Light */
+   @font-face {
+       font-family: 'BrandonText-Light';
+       src: url('../fonts/BrandonText-Light-webfont.eot');
+       src: url('../fonts/BrandonText-Light-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/BrandonText-Light-webfont.woff2') format('woff2'),
+            url('../fonts/BrandonText-Light-webfont.woff') format('woff'),
+            url('../fonts/BrandonText-Light-webfont.ttf') format('truetype'),
+            url('../fonts/BrandonText-Light-webfont.svg#brandon_textlight') format('svg');
+       font-weight: normal;
+       font-style: normal;
+   }
+
+   /* Regular */
+   @font-face {
+       font-family: 'BrandonText-Regular';
+       src: url('../fonts/BrandonText-Regular-webfont.eot');
+       src: url('../fonts/BrandonText-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/BrandonText-Regular-webfont.woff2') format('woff2'),
+            url('../fonts/BrandonText-Regular-webfont.woff') format('woff'),
+            url('../fonts/BrandonText-Regular-webfont.ttf') format('truetype'),
+            url('../fonts/BrandonText-Regular-webfont.svg#brandon_text_regularregular') format('svg');
+       font-weight: normal;
+       font-style: normal;
+   }
+
+   /* Regular Italic */
+   @font-face {
+       font-family: 'BrandonText-Regular-Italic';
+       src: url('../fonts/BrandonText-RegularItalic-webfont.eot');
+       src: url('../fonts/BrandonText-RegularItalic-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/BrandonText-RegularItalic-webfont.woff2') format('woff2'),
+            url('../fonts/BrandonText-RegularItalic-webfont.woff') format('woff'),
+            url('../fonts/BrandonText-RegularItalic-webfont.ttf') format('truetype'),
+            url('../fonts/BrandonText-RegularItalic-webfont.svg#brandon_textregular_italic') format('svg');
+       font-weight: normal;
+       font-style: normal;
+   }

@@ -62,5 +62,66 @@ $(function(){
 					
 						
 				});
+
+				   /* - - - - - - - - - - Social Icons - - - - - - - - - - */
+   $( "a.instagram" ).hover(
+     function() {
+       $( "#instagram-svg" ).css({ fill: "#F6F6F6" });
+     }, function() {
+       $( "#instagram-svg" ).css({ fill: "#0FB8A4" });
+     }
+   );
+
+   $( "a.instagram svg" ).hover(
+     function() {
+       $( "#instagram-svg" ).css({ fill: "#F6F6F6" });
+     }, function() {
+
+     }
+   );
+
+   $( "a.facebook" ).hover(
+     function() {
+       $( "#facebook-svg" ).css({ fill: "#F6F6F6" });
+     }, function() {
+       $( "#facebook-svg" ).css({ fill: "#0FB8A4" });
+     }
+   );
+
+   $( "a.facebook svg" ).hover(
+     function() {
+       $( "#facebook-svg" ).css({ fill: "#F6F6F6" });
+     }, function() {
+     }
+   );
+
+   $( "a.twitter" ).hover(
+     function() {
+       $( "#twitter-svg" ).css({ fill: "#F6F6F6" });
+     }, function() {
+       $( "#twitter-svg" ).css({ fill: "#0FB8A4" });
+     }
+   );
+
+   $( "a.twitter svg" ).hover(
+     function() {
+       $( "#twitter-svg" ).css({ fill: "#F6F6F6" });
+     }, function() {
+     }
+   );
+
+    $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+
 			
 			});
