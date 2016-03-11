@@ -69,129 +69,101 @@
 
 !function(t){var i=t(window);t.fn.visible=function(t,e,o){if(!(this.length<1)){var r=this.length>1?this.eq(0):this,n=r.get(0),f=i.width(),h=i.height(),o=o?o:"both",l=e===!0?n.offsetWidth*n.offsetHeight:!0;if("function"==typeof n.getBoundingClientRect){var g=n.getBoundingClientRect(),u=g.top>=0&&g.top<h,s=g.bottom>0&&g.bottom<=h,c=g.left>=0&&g.left<f,a=g.right>0&&g.right<=f,v=t?u||s:u&&s,b=t?c||a:c&&a;if("both"===o)return l&&v&&b;if("vertical"===o)return l&&v;if("horizontal"===o)return l&&b}else{var d=i.scrollTop(),p=d+h,w=i.scrollLeft(),m=w+f,y=r.offset(),z=y.top,B=z+r.height(),C=y.left,R=C+r.width(),j=t===!0?B:z,q=t===!0?z:B,H=t===!0?R:C,L=t===!0?C:R;if("both"===o)return!!l&&p>=q&&j>=d&&m>=L&&H>=w;if("vertical"===o)return!!l&&p>=q&&j>=d;if("horizontal"===o)return!!l&&m>=L&&H>=w}}}}(jQuery);
 
-$(function(){
+(function($){
+	//initialize vars, give
+	var $window,
+		$socialHover;
 
-				// Trigger ON SCROLL
-				$(window).scroll(function () {
-					
-					// Select the detection type.
-					var detectPartial = $('#detect_type').val() == 'partial';
-					
-					// CHECK IF ELEMENT IS VISIBLE
-					var pizza   = $('.pizza').visible(detectPartial);
-					var cactus  = $('.cactus').visible(detectPartial);
-					var kitchen = $('.kitchen').visible(detectPartial);
-					var monkey  = $('.aap').visible(detectPartial);
-					var eiland  = $('.eiland').visible(detectPartial);
-					var fifa    = $('.fifa').visible(detectPartial);
-					var beans   = $('.beans').visible(detectPartial);
-					var bets    = $('.bets').visible(detectPartial);
-					
-					
+	// Trigger ON SCROLL
+	function showAnimations(e) {
+		//select detection type
+		var $detectPartial = $('#detect_type').val() == 'partial',
+			$pizza = $('.pizza'),
+			$cactus = $('.cactus'),
+			$kitchen = $('.kitchen'),
+			$aap = $('.aap'),
+			$eiland = $('.eiland'),
+			$fifa = $('.fifa'),
+			$beans = $('.beans'),
+			$bets = $('.bets'),
+			$activeElement = null,
+			elementObject = {};
 
-					//IF VISIBLE ADD ACTIVE CLASS TO PLAY ANIMATION
-					if (pizza == true) {
-						$(".pizza").addClass("active");
+		// CHECK IF ELEMENT IS VISIBLE - returns true or false. Object looks like this:
+		// 'key' : value
+		/* {
+		 *	'pizza' : false,
+		 *	'cactus' : false,
+		 *  ...
+		 * }
+		*/
+		elementObject = {
+			'pizza' : $pizza.visible($detectPartial),
+			'cactus' : $cactus.visible($detectPartial),
+			'kitchen' : $kitchen.visible($detectPartial),
+			'aap' : $aap.visible($detectPartial),
+			'eiland' : $eiland.visible($detectPartial),
+			'fifa' : $fifa.visible($detectPartial),
+			'beans' : $beans.visible($detectPartial),
+			'bets' : $bets.visible($detectPartial)
+		};
+		//console.log(elementArray);
 
-					};
+		//loop over each element - when the value is true add active class to it
+		$.each(elementObject, function(key, value) {
+			if (value) {
+				$activeElement = $('.steps .image1 div.' + key);
+				// console.log($activeElement);
+				$activeElement.addClass('active')
+			}
+		});
+	};
 
-					if (cactus == true) {
-						$(".cactus").addClass("active");
+	//social hover
+    function onSocialHover(e){
+		var $this = $(this);
 
-					};
+		//find 'g' on current hovered element
+        $this.find('g').css({fill: "#F6F6F6" });
+    }
 
-					if (kitchen == true) {
-						$(".kitchen").addClass("active");
+	//social hover leave
+	function onSocialLeave(e){
+		var $this = $(this)
 
-					};
-
-					if (monkey == true) {
-						$(".aap").addClass("active");
-
-					};
-
-					if (eiland == true) {
-						$(".eiland").addClass("active");
-
-					};
-
-					if (fifa == true) {
-						$(".fifa").addClass("active");
-
-					};
-
-
-					if (beans == true) {
-						$(".beans").addClass("active");
-
-					};
-
-					if (bets == true) {
-						$(".bets").addClass("active");
-
-					};
-					
-						
-				});
-
-				   /* - - - - - - - - - - Social Icons - - - - - - - - - - */
-   $( "a.instagram" ).hover(
-     function() {
-       $( "#instagram-svg" ).css({ fill: "#F6F6F6" });
-     }, function() {
-       $( "#instagram-svg" ).css({ fill: "#0FB8A4" });
-     }
-   );
-
-   $( "a.instagram svg" ).hover(
-     function() {
-       $( "#instagram-svg" ).css({ fill: "#F6F6F6" });
-     }, function() {
-
-     }
-   );
-
-   $( "a.facebook" ).hover(
-     function() {
-       $( "#facebook-svg" ).css({ fill: "#F6F6F6" });
-     }, function() {
-       $( "#facebook-svg" ).css({ fill: "#0FB8A4" });
-     }
-   );
-
-   $( "a.facebook svg" ).hover(
-     function() {
-       $( "#facebook-svg" ).css({ fill: "#F6F6F6" });
-     }, function() {
-     }
-   );
-
-   $( "a.twitter" ).hover(
-     function() {
-       $( "#twitter-svg" ).css({ fill: "#F6F6F6" });
-     }, function() {
-       $( "#twitter-svg" ).css({ fill: "#0FB8A4" });
-     }
-   );
-
-   $( "a.twitter svg" ).hover(
-     function() {
-       $( "#twitter-svg" ).css({ fill: "#F6F6F6" });
-     }, function() {
-     }
-   );
+		//find 'g' on current leave element
+		$this.find('g').css({fill: "#0FB8A4" });
+	}
 
     $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-			
-});
+    	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      		var target = $(this.hash);
+      		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		    if (target.length) {
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+			    }, 1000);
+		        return false;
+		    }
+    	}
+    });
+
+	//event bindings
+	function bindings() {
+		//social icons is hovered
+		$socialHover.on('mouseenter', onSocialHover);
+		//social icon not hovered anymore
+		$socialHover.on('mouseleave', onSocialLeave);
+		//on scroll
+		$window.on('scroll', showAnimations);
+	}
+
+	$(document).ready(function () {
+	    // variable definitions
+	    $window = $(window);
+	    $socialHover = $('.social-icons a');
+
+	    //call bindings when document is ready
+	    bindings();
+    });
+})(jQuery);
