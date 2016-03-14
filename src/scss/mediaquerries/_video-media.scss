@@ -1,24 +1,49 @@
+@media (min-height: 920px){
+    .logohowtobe {
+       top: 50%;
+
+    }
+}
+
+@media (max-width: 800px) {
+
+    .logonoticed svg{
+        width: 170px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .arrow {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+    }
+}
 @media (max-width: 700px) {
 
 	.logonoticed svg{
-    width: 170px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+        width: 170px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
 	}
 	.logohowtobe{
-
-    color: $secondary-color;
-    font-family: light;
-    padding-left: 15px;
-    padding-right: 15px;
-    top: 57%;
-    width: 90%;    
+        color: $secondary-color;
+        font-family: light;
+        padding-left: 15px;
+        padding-right: 15px;
+        top: 57%;
+        width: 90%;    
 	}
 
 	.arrow {
@@ -28,37 +53,98 @@
 	}
 
 	.arrow img {
-    width: 30px;
-    position: absolute;
-        left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    bottom:  3%;
+        width: 30px;
+        position: absolute;
+            left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        bottom:  3%;
 	}
 	.logohowtobe h1{
-    color: $secondary-color;
+        color: $secondary-color;
+        font-family: light;
+}
+
+.logohowtobe h2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
     font-family: light;
-    
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-@media (max-height: 500px), (min-width: 1000px) {
-	.logonoticed {
-		position: absolute;
-    	left: 20%;
-   		 top: 50%;
-	}
-	
-}
 
 .logohowtobe h2 a{
-
     color: $secondary-color;
     font-family: light;
     text-decoration: none;
     
 }
+}
+@media (max-height: 640px){
+    .logonoticed {
+        position: absolute;
+        top: 20%;
+        left:50%;
+
+    }
+}
+@media (max-height: 500px){
+    .logonoticed {
+        position: absolute;
+        left: 20%;
+        top: 50%;
+        display: block;
+
+    }
+
+    .logohowtobe {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        left: 50%;
+        text-align: center;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: -5%;
+        left: 50%;
+    }
+
+    @media (max-width: 1200px) {
+
+    .logohowtobe {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            left: 60%;
+            text-align: center;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        .arrow {
+            position: absolute;
+            bottom: 0%;
+            left: 50%;
+        }
+    }
+    
+}
+
+@media (min-height: 520px){
+    .logonoticed {
+        position: absolute;
+        top: 30%;
+        left:50%;
+
+    }
 }

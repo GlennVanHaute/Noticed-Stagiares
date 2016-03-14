@@ -4,9 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Handleiding</title>
-	<link rel="stylesheet" href="dist/css/grid.css">
-	<link rel="stylesheet" href="dist/css/main.css">
+		<link rel="stylesheet" href="dist/css/reset.css">
 	
+	<link rel="stylesheet" href="dist/css/grid.css"  data-viewport-units-buggyfill="ignore">
+	<link rel="stylesheet" href="dist/css/main.css">
+
 	 	<meta property="og:site_name" content="Noticed" />
         <meta property="og:title" content="Noticed Communicatiebureau - The interns" />
         <meta property="og:type" content="article" />
@@ -58,7 +60,7 @@ how to become a full team member
 at Noticed agency. </h2>
 			</div>
 			<div class="logonoticed">
-							<svg version="1.1" id="noticed-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							<svg version="1.1" id="noticed-svg"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 viewBox="-165 253.3 279.9 287.7" style="enable-background:new -165 253.3 279.9 287.7;" xml:space="preserve">
 								<style type="text/css">
 									.st55{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
@@ -66,11 +68,10 @@ at Noticed agency. </h2>
 								<circle class="st55 stroke1" cx="-25.1" cy="396.3" r="134.7"/>
 								<polyline class="st55 stroke2" points="-80.6,450.7 -80.6,340.8 30.4,451.8 30.4,340.8 "/>
 								</svg>
-								<script>
-								  
-								</script>
+<!-- 							<img src="dist/img/replace/logo.svg" alt="" class="">
+ -->
+					</div>
 
-						</div>
 			<div class="arrow">
 				<a href="#main"><img src="dist/img/arrows.svg" alt=""></a>
 			</div>
@@ -699,11 +700,24 @@ at Noticed agency. </h2>
 
             </div>
 	</footer>
-	
+
 	<script type="text/javascript" src="dist/js/scripts.js"></script>
 	<script src="dist/js/pathformer.js"></script>
+	<script src="dist/js/modernizer-ie.js"></script>
 	<script type="text/javascript" src="dist/js/vivus.js"></script>
-	
+	<script src="dist/js/viewport-units-buggyfill.js"></script>
+			<script src="dist/js/viewport-units-buggyfill.hacks.js"></script>
+			<script>window.viewportUnitsBuggyfill.init({
+
+			    refreshDebounceWait: 250,
+
+			    hacks: window.viewportUnitsBuggyfillHacks
+
+			});
+
+			</script>
+
 </body>
 </html>
 
+			
