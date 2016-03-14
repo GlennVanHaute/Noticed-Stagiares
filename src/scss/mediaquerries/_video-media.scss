@@ -94,53 +94,53 @@
 
     }
 }
-@media (max-height: 500px){
-    .logonoticed {
-        position: absolute;
-        left: 20%;
-        top: 50%;
-        display: block;
+// @media (max-height: 500px){
+//     .logonoticed {
+//         position: absolute;
+//         left: 20%;
+//         top: 50%;
+//         display: block;
 
-    }
+//     }
 
-    .logohowtobe {
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        left: 50%;
-        text-align: center;
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-    }
+//     .logohowtobe {
+//         position: absolute;
+//         top: 50%;
+//         width: 100%;
+//         left: 50%;
+//         text-align: center;
+//         -webkit-transform: translateX(-50%) translateY(-50%);
+//         transform: translateX(-50%) translateY(-50%);
+//     }
 
-    .arrow {
-        position: absolute;
-        bottom: -5%;
-        left: 50%;
-    }
+//     .arrow {
+//         position: absolute;
+//         bottom: -5%;
+//         left: 50%;
+//     }
 
-    @media (max-width: 1200px) {
+//     @media (max-width: 1200px) {
 
-    .logohowtobe {
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            left: 60%;
-            text-align: center;
-            -webkit-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
-        }
+//     .logohowtobe {
+//             position: absolute;
+//             top: 50%;
+//             width: 100%;
+//             left: 60%;
+//             text-align: center;
+//             -webkit-transform: translateX(-50%) translateY(-50%);
+//             transform: translateX(-50%) translateY(-50%);
+//         }
 
-        .arrow {
-            position: absolute;
-            bottom: 0%;
-            left: 50%;
-        }
-    }
+//         .arrow {
+//             position: absolute;
+//             bottom: 0%;
+//             left: 50%;
+//         }
+//     }
     
-}
+//}
 
-@media (min-height: 520px){
+@media (min-height: 560px){
     .logonoticed {
         position: absolute;
         top: 30%;
