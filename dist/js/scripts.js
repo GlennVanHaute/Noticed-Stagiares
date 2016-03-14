@@ -46,13 +46,16 @@ function detectIE() {
 
   var edge = ua.indexOf('Edge/');
   if (edge > 0) {
+        $(".logo-static").css("display", "block");
+
     // Edge (IE 12+) => return version number
     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
-    $(".logo-static").css("display", "block");
 
   }
 
   // other browser
+  $(".logo-static").css("display", "block");
+
   return false;
 }
 (function($){
