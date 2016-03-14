@@ -2,13 +2,13 @@
 var IEversion = detectIE();
 
 if (IEversion !== false) {
-  document.getElementById('result').innerHTML = 'IE ' + IEversion;
+          $(".logo-static").css("display", "block");
+
 } else {
-  document.getElementById('result').innerHTML = 'NOT IE';
+        $(".logo-animated").css("display", "block");
 }
 
 // add details to debug result
-document.getElementById('details').innerHTML = window.navigator.userAgent;
 
 /**
  * detect IE
@@ -46,7 +46,6 @@ function detectIE() {
 
   var edge = ua.indexOf('Edge/');
   if (edge > 0) {
-        $(".logo-static").css("display", "block");
 
     // Edge (IE 12+) => return version number
     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
@@ -54,7 +53,6 @@ function detectIE() {
   }
 
   // other browser
-  $(".logo-static").css("display", "block");
 
   return false;
 }
