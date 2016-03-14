@@ -97,25 +97,24 @@
 	    //call bindings when document is ready
 	    bindings();
     });
-/*    function msieversion() {
+    function msieversion() {
 
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");
 
     if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
     {
-    	    	$(".logo-animated").css("display", "block");
     	    	$(".logo-static").css("display", "block");
 
     } 
     else  // If another browser, return 0
     {
-    	    	$(".logo-static").css("display", "block");
+    	    	$(".logo-animate").css("display", "block");
 
 
     }
 
     return false;
 }
- msieversion()*/
+ msieversion()
 })(jQuery);
