@@ -2,7 +2,8 @@
 var IEversion = detectIE();
 
 if (IEversion !== false) {
-          $(".logo-static").css("display", "block");
+
+        $(".logo-static").css("display", "block");
 
 } else {
         $(".logo-animated").css("display", "block");
