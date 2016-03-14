@@ -1,10 +1,10 @@
 // Media Queries
 @mixin MQ-min($canvas) {
-   @media only screen and (min-width: $canvas) { @content; } 
+   @media only screen and (min-width: $canvas) { @content; }
 }
 
 @mixin MQ-max($canvas) {
-   @media only screen and (max-width: $canvas) { @content; } 
+   @media only screen and (max-width: $canvas) { @content; }
 }
 
 
@@ -32,7 +32,7 @@
 // SVG Background - PNG Fallback
 @mixin svgBackground($name) {
    background-image: url('../images/#{$name}.svg');
-   
+
   .lt-ie9 & {
     background-image: url('../images/#{$name}.png');
   }
@@ -69,13 +69,13 @@ width: 33.33%;
 float:left;
 }
 .footertje .banaan {
-	    height: 0;
+	height: 0;
     padding-bottom: 33.3333%;
     float: left;
     background-size: cover;
     position: relative;
-    	width: 100%;
-
+    width: 100%;
+    text-align: center;
 }
 
 .footertje .banaan p {
@@ -109,24 +109,24 @@ float:left;
 .footertje .profileimages2{
 	width:33.33%;
 	background-image: url('../img/glekkezondertekst.jpg');
-	
+
 }
 
 .footertje .profileimages2:hover{
 	width:33.33%;
 	background-image: url('../img/glekke.jpg');
-	
+
 }
 
 .footertje .profileimages2:hover p{
 	display: none;
-	
+
 }
 
 .footertje .profileimages3{
 	width:33.33%;
 	background-image: url('../img/annelorezondertekst.jpg');
- 
+
 }
 
 .footertje .profileimages3:hover{
@@ -209,7 +209,7 @@ footer {
   margin: 0;
   padding: 60px 0;
   background-color: #F6F6F6;
-    
+
   h5 {
     font-weight: normal !important;
     @include fontSize(12px);
@@ -240,9 +240,9 @@ footer {
   }
 }
 
-.social-icons {  
+.social-icons {
   width: 28.5%;
-  
+
   @include MQ-max(1000px) {
     width: 100%;
     margin-right: 0;
@@ -253,7 +253,7 @@ footer {
   @include MQ-max(720px){
     text-align: left;
   }
-    
+
   a {
     display: inline-block;
     float: left;
@@ -263,7 +263,7 @@ footer {
     position: relative;
     border: 1px solid #0FB8A4;
     border-radius: 50%;
-    
+
     @include MQ-max(1000px) {
       float: none;
     }
@@ -272,14 +272,14 @@ footer {
       width: 30px;
       height: 30px;
     }
-        
+
     &:hover {
       background-color: #0FB8A4;
     }
-    
+
     &+a {
       margin-left: 30px;
-      
+
       @include MQ-max(1150px){
         margin-left: 15px;
       }
@@ -287,7 +287,7 @@ footer {
 
     &.instagram svg {
       margin-left: -14.5px;
-      
+
       @include MQ-max(500px){
         margin-left: -7px;
       }
@@ -295,7 +295,7 @@ footer {
 
     &.twitter svg {
       margin-left: -18px;
-      
+
       @include MQ-max(500px){
         margin-left: -7px;
       }
@@ -303,7 +303,7 @@ footer {
 
     &.facebook svg {
       margin-left: -7px;
-      
+
       @include MQ-max(500px){
         width: 25%;
         margin-left: -4px;
@@ -317,10 +317,10 @@ footer {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
-      
+
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      
+
       @include MQ-max(500px){
         width: 50%;
       }
@@ -331,7 +331,7 @@ footer {
 
 .contact {
   width: 17%;
-  
+
   @include MQ-max(1000px){
     width: 25%;
   }
@@ -348,7 +348,7 @@ footer {
 
 .address {
   width: 17%;
-  
+
   @include MQ-max(1000px){
     width: 25%;
   }
@@ -365,7 +365,7 @@ footer {
 
 .currently {
   width: 31%;
-  
+
   @include MQ-max(1000px){
     width: 45%;
     margin-right: 0;
@@ -462,7 +462,7 @@ footer {
     width: 13px;
     height: 10px;
     vertical-align: middle;
-    margin-top: 6px; 
+    margin-top: 6px;
   }
 }
 
@@ -479,7 +479,7 @@ footer {
     width: 14px;
     height: 11px;
     vertical-align: middle;
-    margin-top: 5px;  
+    margin-top: 5px;
   }
 }
 

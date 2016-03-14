@@ -1,4 +1,8 @@
-body { position:relative;}
+body {
+	position:relative;
+	//video overflows vp on IE
+	overflow-x: hidden;
+}
 .left p {
 	color: $primary-color;
 }

@@ -428,7 +428,8 @@ th {
   float: left;
   background-size: cover;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .footertje .banaan p {
   position: absolute;
@@ -794,7 +795,8 @@ footer {
     transform: translateX(-50%) translateY(-50%); } }
 
 body {
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
 
 .left p {
   color: #1AB1A1; }
