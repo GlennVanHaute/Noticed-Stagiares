@@ -28,12 +28,13 @@
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  font-family: "Light", sans-serif;
 }
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 5px;
+  right: 15px;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
@@ -41,10 +42,16 @@
   color: #333;
 }
 .popup .close:hover {
-  color: orange;
+  color: $primary-color;
 }
 .popup .content {
+  padding-top: 15px;
   max-height: 30%;
   overflow: auto;
+  width: 100%;
+}
+.popup .content p {
+    font-family: "Light", sans-serif;
+
 }
 
