@@ -4,14 +4,14 @@ var IEversion = detectIE();
 if (IEversion !== false) {
 
         $(".logo-static").css("display", "block");
-        if (IEversion <11){
+
+        if (IEversion <12){
           location.href = "#popup1";
         }
 
 
 } else {
         $(".logo-animated").css("display", "block");
-                
  
 }
 
