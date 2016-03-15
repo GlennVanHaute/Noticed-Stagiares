@@ -442,33 +442,33 @@ th {
 
 .footertje .profileimages1 {
   width: 33.33%;
-  background-image: url("../img/reneezondertekst.jpg"); }
+  background-image: url("../img/reneezwzt.jpg"); }
 
 .footertje .profileimages1:hover {
   width: 33.33%;
-  background-image: url("../img/renee.jpg"); }
+  background-image: url("../img/reneezw.jpg"); }
 
 .footertje .profileimages1:hover p {
   display: none; }
 
 .footertje .profileimages2 {
   width: 33.33%;
-  background-image: url("../img/glekkezondertekst.jpg"); }
+  background-image: url("../img/glekkezwzt.jpg"); }
 
 .footertje .profileimages2:hover {
   width: 33.33%;
-  background-image: url("../img/glekke.jpg"); }
+  background-image: url("../img/glekkezw.jpg"); }
 
 .footertje .profileimages2:hover p {
   display: none; }
 
 .footertje .profileimages3 {
   width: 33.33%;
-  background-image: url("../img/annelorezondertekst.jpg"); }
+  background-image: url("../img/annelorezwzt.jpg"); }
 
 .footertje .profileimages3:hover {
   width: 33.33%;
-  background-image: url("../img/annelore.jpg"); }
+  background-image: url("../img/annelorezw.jpg"); }
 
 .footertje .profileimages3:hover p {
   display: none; }
@@ -930,6 +930,55 @@ html {
 .secondcollum {
   float: left;
   background-color: #fff; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0; }
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1; }
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  -webkit-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out; }
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif; }
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333; }
+
+.popup .close:hover {
+  color: orange; }
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto; }
 
 video#bgvid {
   position: fixed;

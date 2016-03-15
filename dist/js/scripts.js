@@ -4,6 +4,8 @@ var IEversion = detectIE();
 if (IEversion !== false) {
 
         $(".logo-static").css("display", "block");
+        location.href = "#popup1";
+
 
 } else {
         $(".logo-animated").css("display", "block");
