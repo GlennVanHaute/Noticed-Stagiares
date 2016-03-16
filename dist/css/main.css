@@ -937,7 +937,6 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
   -webkit-transition: opacity 500ms;
   transition: opacity 500ms;
   visibility: hidden;
@@ -948,11 +947,10 @@ html {
   opacity: 1; }
 
 .popup {
-  margin: 70px auto;
   padding: 20px;
-  background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 250px;
+  margin: 75px auto;
   position: relative;
   -webkit-transition: all 5s ease-in-out;
   transition: all 5s ease-in-out; }
@@ -965,11 +963,11 @@ html {
 
 .popup .close {
   position: absolute;
-  top: 5px;
-  right: 15px;
+  top: 21px;
+  right: -47px;
   -webkit-transition: all 200ms;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
   text-decoration: none;
   color: #333; }
